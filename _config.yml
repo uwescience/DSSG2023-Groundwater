@@ -14,7 +14,8 @@ baseurl:          "/DSSG-website-template"
 
 paginate:         5
 
-
+# Custom vars
+version:          0.0.0
 
 github:
   repo:           https://github.com/uwescience/DSSG-website-template/
