@@ -7,20 +7,17 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:            DSSG Project Name
+tagline:          ''
+description:      'Project Description'
+url:              "https://uwescience.github.io/"
+baseurl:          "dssg-website-template"
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          0.0.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/uwescience/dssg-website-template/
