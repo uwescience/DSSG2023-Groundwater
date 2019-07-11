@@ -1,4 +1,7 @@
-### MOTIVATION
+---
+layout: page
+title: Motivation
+---
 
 **Questions**
 
