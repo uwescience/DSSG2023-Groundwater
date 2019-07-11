@@ -1,16 +1,15 @@
 # Dependencies
-highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: false
+
 
 # Setup
 title:            DSSG Project Name
 tagline:          ''
 description:      'Project Description'
-url:              "https://uwescience.github.io/"
-baseurl:          "dssg-website-template"
+url:              "https://uwescience.github.io"
+baseurl:          "/dssg-website-template"
 
 
 paginate:         5
