@@ -9,7 +9,7 @@ title:            DSSG Project Name
 tagline:          ''
 description:      'Project Description'
 url:              "https://uwescience.github.io"
-baseurl:          "/dssg-website-template"
+baseurl:          "/DSSG-website-template"
 
 
 paginate:         5
@@ -18,4 +18,4 @@ paginate:         5
 version:          0.0.0
 
 github:
-  repo:           https://github.com/uwescience/dssg-website-template/
+  repo:           https://github.com/uwescience/DSSG-website-template/
