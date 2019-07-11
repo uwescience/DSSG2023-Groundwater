@@ -1,4 +1,7 @@
-### RESULTS
+---
+layout: page
+title: Results
+---
 
 **Findings**
 
