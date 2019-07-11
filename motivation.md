@@ -1,4 +1,4 @@
-### MOTIVATION (aka “use specification”)
+### MOTIVATION
 
 **Questions**
 
