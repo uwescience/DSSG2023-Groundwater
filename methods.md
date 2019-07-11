@@ -1,4 +1,7 @@
-### METHODS
+---
+layout: page
+title: Methods
+---
 
 **Data**
 
