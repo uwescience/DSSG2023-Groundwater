@@ -5,12 +5,12 @@
   * we will import them under the uwescience organization (a data scientist with permissions can set this up)
 
 * The name of the repository will generate the name of the website
-	[https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
+	* [https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
 
 * Modify your project name in the `_config.yml` file
 
 * Enable the gh-pages publishing source (use master branch):
-	[https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
+	* [https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
 * Each page is a markdown document
 	* Markdown is a text marking language designed for the web 
@@ -19,7 +19,7 @@
 	* You can modify the markdown documents from the website (hit the edit button and commit when finished)
     	* You can also clone the repo (or your fork of it) and make modifications locally
 		* [Macdown Editor for Mac](https://macdown.uranusjr.com/)
-    		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
+		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
 		* [Atom editor](https://atom.io/) has a markdown extension
 	
 * You can modify your pages by setting up the sidebar:
@@ -29,6 +29,7 @@
 
 * Images go into [assets/img](https://github.com/uwescience/DSSG-website-template/tree/master/assets/img)
 	* they can be accessed by:
+	
         ```html
 		<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
 	```  
