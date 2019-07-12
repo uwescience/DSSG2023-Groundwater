@@ -1,3 +1,39 @@
+# This is a template for a DSSG project website
+
+* Import this template into a new repo using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer)
+  * for simplicity we will keep them separate from your code 
+  * import under the uwescience organization
+
+* The name of the repository will generate the name of the website
+		[https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
+
+* Each page is a markdown document
+    * Markdown is a text marking language designed for the web 
+        [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
+    * You can modify the markdown documents from the website (hit the edit button and commit when finished)
+    * You can also clone the repo (or your fork of it) and make modifications locally
+		[Macdown Editor for Mac](https://macdown.uranusjr.com/)
+                [MarkdownPad](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
+* You can modify your pages by setting up the sidebar:
+[https://github.com/uwescience/DSSG-website-template/blob/master/_includes/sidebar.html](https://github.com/uwescience/DSSG-website-template/blob/master/_includes/sidebar.html)
+
+
+* Images go into 
+       [assets/img](https://github.com/uwescience/DSSG-website-template/tree/master/assets/img)
+       
+       They can be accessed by:
+        "<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png"> "
+        
+       Feel free have a different header image relevant to your project.
+
+* You can also test the website locally, but that requires setting up Jekyll:
+		[https://jekyllrb.com/](https://jekyllrb.com/)
+
+* If you do not want to rush make your writings visible on the website, you can work in a fork, or simply work on a local markdown file which you can share with your teammates for review. 
+
+
+
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
