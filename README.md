@@ -33,8 +33,7 @@ This is a template for a public [gh-pages](https://pages.github.com/) webpage fo
 	* they can be accessed by:
 	
         	```html
-			<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
-		```  
+			<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">```  
 	* (feel free to have a different header image relevant to your project)
 
 * You can also test the website locally, but that requires setting up Jekyll:
