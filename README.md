@@ -1,12 +1,12 @@
-# This is a template for a DSSG project website
+# DSSG Project Website Template
 
 * Import this template into a new repo using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer)
   * for simplicity we will keep them separate from your code 
-  * import under the uwescience organization
+  * we will import them under the uwescience organization (a data scientist with permissions can set this up)
 
 * The name of the repository will generate the name of the website
-		[https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
-
+	[https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
+		
 * Each page is a markdown document
     * Markdown is a text marking language designed for the web 
         [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
@@ -34,7 +34,7 @@
 
 
 
-# Hyde
+# Hyde Theme Details
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
