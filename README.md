@@ -31,9 +31,11 @@ This is a template for a public [gh-pages](https://pages.github.com/) webpage fo
 
 * Images go into [assets/img](https://github.com/uwescience/DSSG-website-template/tree/master/assets/img)
 	* they can be accessed by:
+	
         	```html
 			<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
 		```  
+	
 	* (feel free to have a different header image relevant to your project)
 
 * You can also test the website locally, but that requires setting up Jekyll:
