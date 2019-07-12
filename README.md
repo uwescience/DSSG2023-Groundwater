@@ -14,7 +14,7 @@
 
 * Each page is a markdown document
 	* Markdown is a text marking language designed for the web 
-    		* [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
+		* [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
 	
 	* You can modify the markdown documents from the website (hit the edit button and commit when finished)
     	* You can also clone the repo (or your fork of it) and make modifications locally
