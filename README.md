@@ -9,14 +9,17 @@
 		
 * Each page is a markdown document
     * Markdown is a text marking language designed for the web 
+    
         [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
     * You can modify the markdown documents from the website (hit the edit button and commit when finished)
     * You can also clone the repo (or your fork of it) and make modifications locally
     
 	* [Macdown Editor for Mac](https://macdown.uranusjr.com/)
-    	* [MarkdownPad](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
+    	* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
+	* [Atom editor] has a markdown extension
 	
 * You can modify your pages by setting up the sidebar:
+
 [https://github.com/uwescience/DSSG-website-template/blob/master/_includes/sidebar.html](https://github.com/uwescience/DSSG-website-template/blob/master/_includes/sidebar.html)
 
 
@@ -24,7 +27,7 @@
 	* they can be accessed by:
         "<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png"> "
         
-        Feel free have a different header image relevant to your project.
+        * feel free have a different header image relevant to your project.
 
 * You can also test the website locally, but that requires setting up Jekyll:
 		[https://jekyllrb.com/](https://jekyllrb.com/)
