@@ -1,5 +1,7 @@
 # DSSG Project Website Template
 
+This is a template for a [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
+
 * Import this template into a new repo using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer)
   * for simplicity we will keep them separate from your code 
   * we will import them under the uwescience organization (a data scientist with permissions can set this up)
