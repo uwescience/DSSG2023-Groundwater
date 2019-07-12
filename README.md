@@ -2,9 +2,9 @@
 
 This is a template for a public [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
 
-* Import this template into a new repo using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer)
+* Import this template into a new repo using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) (a data scientist with permissions can set this up)
   * for simplicity we will keep them separate from your code 
-  * we will import them under the uwescience organization (a data scientist with permissions can set this up)
+  * we will import them under the uwescience organization
 
 * The name of the repository will generate the name of the website
 	* [https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
@@ -32,11 +32,10 @@ This is a template for a public [gh-pages](https://pages.github.com/) webpage fo
 * Images go into [assets/img](https://github.com/uwescience/DSSG-website-template/tree/master/assets/img)
 	* they can be accessed by:
 	
-        ```html
-		<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
-	```  
-	
-	(feel free to have a different header image relevant to your project)
+        	```html
+			<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
+		```  
+	* (feel free to have a different header image relevant to your project)
 
 * You can also test the website locally, but that requires setting up Jekyll:
 		[https://jekyllrb.com/](https://jekyllrb.com/)
