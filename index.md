@@ -13,6 +13,6 @@ The ... team worked on one of [four projects](http://escience.washington.edu/201
 
 **Project Lead/s:**
 
-**Data Scientist Lead/s:** 
+**Data Science Lead:** 
 
 **DSSG Fellows:** 
