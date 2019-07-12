@@ -14,9 +14,9 @@
 	
     * You can modify the markdown documents from the website (hit the edit button and commit when finished)
     * You can also clone the repo (or your fork of it) and make modifications locally
-	* [Macdown Editor for Mac](https://macdown.uranusjr.com/)
-    	* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
-	* [Atom editor](https://atom.io/) has a markdown extension
+	1. [Macdown Editor for Mac](https://macdown.uranusjr.com/)
+    	2. [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
+	3. [Atom editor](https://atom.io/) has a markdown extension
 	
 * You can modify your pages by setting up the sidebar:
 
@@ -25,9 +25,9 @@
 
 * Images go into [assets/img](https://github.com/uwescience/DSSG-website-template/tree/master/assets/img)
 	* they can be accessed by:
-        """
+        ```html
 		<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
-	"""      
+	```      
         * feel free have a different header image relevant to your project.
 
 * You can also test the website locally, but that requires setting up Jekyll:
