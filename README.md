@@ -27,7 +27,7 @@
         ```html
 		<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
 	```      
-        * feel free have a different header image relevant to your project.
+	(feel free to have a different header image relevant to your project)
 
 * You can also test the website locally, but that requires setting up Jekyll:
 		[https://jekyllrb.com/](https://jekyllrb.com/)
