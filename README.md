@@ -6,7 +6,12 @@
 
 * The name of the repository will generate the name of the website
 	[https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
-		
+
+* Modify your project name in the `_config.yml` file
+
+* Enable the gh-pages publishing source (use master branch):
+	[https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
+
 * Each page is a markdown document
 	* Markdown is a text marking language designed for the web 
     		* [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
@@ -26,7 +31,8 @@
 	* they can be accessed by:
         ```html
 		<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
-	```      
+	```  
+	
 	(feel free to have a different header image relevant to your project)
 
 * You can also test the website locally, but that requires setting up Jekyll:
