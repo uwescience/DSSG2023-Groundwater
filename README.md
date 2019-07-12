@@ -8,15 +8,14 @@
 	[https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
 		
 * Each page is a markdown document
-    * Markdown is a text marking language designed for the web 
-    
-        * [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
+	* Markdown is a text marking language designed for the web 
+    		* [Markdown Tutorial](https://daringfireball.net/projects/markdown/syntax)
 	
-    * You can modify the markdown documents from the website (hit the edit button and commit when finished)
-    * You can also clone the repo (or your fork of it) and make modifications locally
-	1. [Macdown Editor for Mac](https://macdown.uranusjr.com/)
-    	2. [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
-	3. [Atom editor](https://atom.io/) has a markdown extension
+	* You can modify the markdown documents from the website (hit the edit button and commit when finished)
+    	* You can also clone the repo (or your fork of it) and make modifications locally
+		* [Macdown Editor for Mac](https://macdown.uranusjr.com/)
+    		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
+		* [Atom editor](https://atom.io/) has a markdown extension
 	
 * You can modify your pages by setting up the sidebar:
 
