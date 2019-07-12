@@ -7,7 +7,7 @@ permalink:        pretty
 # Setup
 title:            DSSG Project Name
 tagline:          ''
-description:      'Project Description'
+description:      'A 2019 Data Science for Social Good Summer Fellowship Project at the University of Washington' 
 url:              "https://uwescience.github.io"
 baseurl:          "/DSSG-website-template"
 
