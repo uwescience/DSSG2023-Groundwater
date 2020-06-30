@@ -2,7 +2,7 @@
 
 This is a template for a public [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
 
-* For simplicity we suggest mak a separate a repo which will contain only the webpage (separate from the code).
+* For simplicity we suggest making a separate a repo which will contain only the webpage (separate from the code).
 * We also suggest that the repo is made under the uwescience organization and follow the format DSSG2020-nameofrepo.
 (The repo name and the owner can be changed but this is a good starting point)
 
@@ -26,6 +26,9 @@ Since the uwescience organization requires permissions to create repos, provide 
 		* [Macdown Editor for Mac](https://macdown.uranusjr.com/)
 		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
 		* [Atom editor](https://atom.io/) has a markdown extension
+		
+* If you want to preview the webpage you need to install [Jekyll](https://jekyllrb.com/docs/installation/)(it is a bit involved, so leave it for later), then run
+`bundle exec jekyll serve`
 	
 * You can modify your pages by setting up the sidebar:
 
