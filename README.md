@@ -8,6 +8,22 @@ This is a template for a public [gh-pages](https://pages.github.com/) webpage fo
 
 Since the uwescience organization requires permissions to create repos, provide an eScience Data Scientist with the repo name and the usernames of all members and we will create and add it for you. We will create it by using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) (it may take a bit of time).
 
+* An alternative approach is to use your already existing repo (it requires a bit more work)
+ * your repo name will be ...repo
+ * create a gh-pages branch for your repo
+ * enable publishing through the gh-pages branch
+ ```git checkout --orphan gh-pages
+    # preview files to be deleted
+    git rm -rf --dry-run .
+    # actually delete the files
+    git rm -rf .
+    git clone ...
+    git add .
+    git commit -m "first commit of gh-pages"
+    git push origin gh-pages 
+ ```
+  
+
 
 * The name of the repository will generate the name of the website
 	* [https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
@@ -27,7 +43,7 @@ Since the uwescience organization requires permissions to create repos, provide 
 		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
 		* [Atom editor](https://atom.io/) has a markdown extension
 		
-* If you want to preview the webpage you need to install [Jekyll](https://jekyllrb.com/docs/installation/)(it is a bit involved, so leave it for later), then run
+* If you want to preview the webpage locally you need to install [Jekyll](https://jekyllrb.com/docs/installation/)(it is a bit involved), then run
 `bundle exec jekyll serve`
 	
 * You can modify your pages by setting up the sidebar:
@@ -37,18 +53,15 @@ Since the uwescience organization requires permissions to create repos, provide 
 
 * Images go into [assets/img](https://github.com/uwescience/DSSG-website-template/tree/master/assets/img)
 	* they can be accessed by:
-	
         	
 			<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
-		
+	* to upload images through the website you need to have push access
 	
 	* feel free to have a different header image relevant to your project
-
-* You can also test the website locally, but that requires setting up Jekyll:
-		[https://jekyllrb.com/](https://jekyllrb.com/)
+	
+* The theme that we are using is called Hyde: you can read more details about it below. Feel free to use a different theme.
 
 * If you do not want to rush make your writings visible on the website, you can work in a fork, or simply work on a local markdown file which you can share with your teammates for review. 
-
 
 
 
