@@ -2,9 +2,12 @@
 
 This is a template for a public [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
 
-* Import this template into a new repo using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) (a data scientist with permissions can set this up)
-  * for simplicity we will keep them separate from your code 
-  * we will import them under the uwescience organization
+* For simplicity we suggest mak a separate a repo which will contain only the webpage (separate from the code).
+* We also suggest that the repo is made under the uwescience organization and follow the format DSSG2020-nameofrepo.
+(The repo name and the owner can be changed but this is a good starting point)
+
+Since the uwescience organization requires permissions to create repos, provide an eScience Data Scientist with the repo name and the usernames of all members and we will create and add it for you. We will create it by using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) (it may take a bit of time).
+
 
 * The name of the repository will generate the name of the website
 	* [https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
