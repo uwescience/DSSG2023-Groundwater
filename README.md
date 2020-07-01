@@ -37,10 +37,10 @@ For simplicity we suggest to create a separate repo for the webpage (separate fr
  ```
 
 
-#### Configuring your website
+## Configuring your website
 * Modify your project name in the `_config.yml` file
 	
-#### Editing your webpage
+## Editing your webpage
 
 * Each page is a markdown document
 	* Markdown is a text marking language designed for the web 
@@ -68,12 +68,14 @@ For simplicity we suggest to create a separate repo for the webpage (separate fr
 	* to upload images through the website you need to have push access (otherwise do it locally and submit a pull request)
 	
 	* feel free to have a different header image relevant to your project
+
+* Some colors and fonts are set in the [`.css file`](https://github.com/uwescience/DSSG-website-template/blob/master/public/css/hyde.css)
 	
 * The theme that we are using is called [Hyde](https://github.com/poole/hyde): you can read more details about it below. Feel free to use a different theme ([gh-pages themes](https://pages.github.com/themes/), [Jekyll themes](https://jekyllthemes.io/)), but you will have to figure out how to change it on your own. 
 
-* If you do not want to rush make your writings visible on the website, you can work in a fork, or simply work on a local markdown file which you can share with your teammates for review. 
+* If you do not want to rush make your writings visible on the website, you can work in a fork, or simply work on a markdown file which you can share with your teammates for review (check out [https://hackmd.io/](https://hackmd.io/) for collaborative markdown editing). 
 
-
+---
 
 # Hyde Theme Details
 
