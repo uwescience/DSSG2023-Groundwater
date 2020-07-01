@@ -2,13 +2,17 @@
 
 This is a template for a public [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
 
-* For simplicity we suggest making a separate a repo which will contain only the webpage (separate from the code).
-* We also suggest that the repo is made under the uwescience organization and follow the format DSSG2020-nameofrepo.
-(The repo name and the owner can be changed but this is a good starting point)
+## Repo Creation
+For simplicity we suggest to create a separate repo for the webpage (separate from the code), but we will also provide the option to set it up for the repo that you already have, but that require more work to set up.
 
-Since the uwescience organization requires permissions to create repos, provide an eScience Data Scientist with the repo name and the usernames of all members and we will create and add it for you. We will create it by using the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) (it may take a bit of time).
+### Option 1 (new repo)
+* Decide on a name for the repository: we suggest to follow the format DSSG2020-nameofrepo (it will determine the webpage url)
+* Provide an eScience Data Scientist with the name and the usernames of all the team members
+* We will create a repo under the [uwescience organization](https://github.com/uwescience) for you and the final address will be [github.com/DSSG2020-nameofrepo] (we will use the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) and it may take a bit of time)
 
-* An alternative approach is to use your already existing repo (it requires a bit more work)
+### Option 2 (existing repo)
+
+
  * your repo name will be ...repo
  * create a gh-pages branch for your repo
  * enable publishing through the gh-pages branch
@@ -23,7 +27,7 @@ Since the uwescience organization requires permissions to create repos, provide 
     git push origin gh-pages 
  ```
   
-
+(The repo name and the owner can be changed but this is a good starting point)
 
 * The name of the repository will generate the name of the website
 	* [https://uwescience.github.io/DSSG-website-template/](https://uwescience.github.io/DSSG-website-template/)
