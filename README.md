@@ -6,9 +6,9 @@ This is a template for a public [gh-pages](https://pages.github.com/) webpage fo
 For simplicity we suggest to create a separate repo for the webpage (separate from the code). We will also provide the option to set it up for the repo that you already have, but that will require more git work. If needed ownership and website name can be changed in the future, so pick something as a starting point. 
 
 ### Option 1 (new repo)
-* decide on a name for the repository: we suggest to follow the format DSSG2020-nameofrepo (it will determine the webpage url)
+* decide on a name for the repository: we suggest to follow the format DSSG2020-name-of-repo (it will determine the webpage url)
 * provide an eScience Data Scientist with the name and the usernames of all the team members
-* we will create a repo under the [uwescience organization](https://github.com/uwescience) for you and the final address will be [uwescience.github.io/DSSG2020-nameofrepo] (we will use the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) and it may take a bit of time)
+* we will create a repo under the [uwescience organization](https://github.com/uwescience) for you and the final address will be [uwescience.github.io/DSSG2020-name-of-repo](uwescience.github.io/DSSG2020-name-of-repo) (we will use the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) and it may take a bit of time)
 
 ### Option 2 (existing repo)
 
