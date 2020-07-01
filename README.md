@@ -62,7 +62,9 @@ For simplicity we suggest to create a separate repo for the webpage (separate fr
 
 * Images go into [assets/img](https://github.com/uwescience/DSSG-website-template/tree/master/assets/img)
 	* they can be accessed by:
+			```
 			<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
+			```
 	* to upload images through the website you need to have push access (otherwise do it locally and submit a pull request)
 	
 	* feel free to have a different header image relevant to your project
