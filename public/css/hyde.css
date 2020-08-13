@@ -99,6 +99,12 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
