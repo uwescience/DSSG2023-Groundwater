@@ -14,11 +14,13 @@
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/motivation' | prepend: site.baseurl }}">Motivation</a>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/methods' | prepend: site.baseurl }}">Methods</a>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/results' | prepend: site.baseurl }}">Results</a>
+      <div class="dropdown">
       <button class="dropdown-btn">Tutorial
           <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-container">
           <a href="{{ '/results' | prepend: site.baseurl }}">tutorial details</a>
+      </div>
       </div>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/about' | prepend: site.baseurl }}">About</a>
       
