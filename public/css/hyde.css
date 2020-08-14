@@ -71,8 +71,10 @@ html {
 }
 
 /* Sidebar links */
-.sidebar a{
+.sidebar a, drop-down-btn{
   color: #fff;
+  border: none;
+  background: none;
 }
 
 /* About section */
