@@ -71,7 +71,7 @@ html {
 }
 
 /* Sidebar links */
-.sidebar a, .dropdown-btn {
+.sidebar a{
   color: #fff;
 }
 
