@@ -2,7 +2,7 @@
 
 This is a template for a public [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
 
-[gh-pages] are static webpages, i.e. the content (mainly `.html` and `.css`) is sent to the users browser and executed there (no backend server). That said, they actually can contain some interactive content which is in `.javascript`. The advantage is that one does not need to know these language, all they need is to write text in `markdown`. Gh-Pages can be used for a lot of different scenarios:
+Gh-pages are static webpages, i.e. the content (mainly `.html` and `.css`) is sent to the users browser and executed there (no backend server). That said, they actually can contain some interactive content which is in `.javascript`. The advantage is that one does not need to know these language, all they need is to write text in `markdown`. Gh-Pages can be used for a lot of different scenarios:
 * examples from older DSSG projects:
 	*  https://uwescience.github.io/DSSG2016-UnsafeFoods/
 	*  https://dds-lab.github.io/disaster-damage-detection/
