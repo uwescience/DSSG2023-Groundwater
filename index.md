@@ -11,7 +11,7 @@ layout: default
 
 **Project Lead/s:**
 
-**Data Science Lead:** 
+**Data Science Lead/s:** 
 
 **DSSG Fellows:** 
 
