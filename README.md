@@ -2,6 +2,21 @@
 
 This is a template for a public [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
 
+[gh-pages] are static webpages, i.e. the content (mainly `.html` and `.css`) is sent to the users browser and executed there (no backend server). That said, they actually can contain some interactive content which is in `.javascript`. The advantage is that one does not need to know these language, all they need is to write text in `markdown`. Gh-Pages can be used for a lot of different scenarios:
+* examples from older DSSG projects:
+	*  https://uwescience.github.io/DSSG2016-UnsafeFoods/
+	*  https://dds-lab.github.io/disaster-damage-detection/
+
+* example of tutorial content:
+	*  http://swcarpentry.github.io/git-novice/
+	*  https://github.com/carpentries/lesson-example
+
+* other examples:
+	* personal blog: [academic blog template](https://valentina-s.github.io/personal-website-template/)
+	* class website: [example](https://valentina-s.github.io/cse-stat-416-sp20/), [template](https://valentina-s.github.io/course-website-template/)	 
+
+
+
 ## Repo Creation
 For simplicity we suggest to create a separate repo for the webpage (separate from the code). We will also provide the option to set it up for the repo that you already have, but that will require more git work. If needed ownership and website name can be changed in the future, so pick something as a starting point. 
 
