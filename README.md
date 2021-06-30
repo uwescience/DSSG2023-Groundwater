@@ -8,7 +8,7 @@ Github Pages are static webpages, i.e. the content (mainly `.html` and `.css`) i
 * example of tutorial content: [git novice lesson](http://swcarpentry.github.io/git-novice/), [lesson template](https://github.com/carpentries/lesson-example)
 
 * example of a personal blog: [academic blog template](https://valentina-s.github.io/personal-website-template/)
-* class website: [example](https://valentina-s.github.io/cse-stat-416-sp20/), [template](https://valentina-s.github.io/course-website-template/)	 
+* example of a class website: [example](https://valentina-s.github.io/cse-stat-416-sp20/), [template](https://valentina-s.github.io/course-website-template/)	 
 
 
 
