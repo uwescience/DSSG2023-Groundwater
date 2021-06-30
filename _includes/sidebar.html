@@ -14,15 +14,17 @@
 
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/motivation' | prepend: site.baseurl }}">Motivation</a>
-      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/methods' | prepend: site.baseurl }}">Methods</a>
-      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/results' | prepend: site.baseurl }}">Results</a>
-      <button class="dropdown-btn">Tutorial
+      
+      /* An example of a section with drop-down meny */
+      <button class="dropdown-btn">Methods
           <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-container">
-          <a href="{{ '/results' | prepend: site.baseurl }}">Part 1</a><br/>
-          <a href="{{ '/results' | prepend: site.baseurl }}">Part 2</a>
+          <a href="{{ '/methods' | prepend: site.baseurl }}">Method 1</a><br/>
+          <a href="{{ '/methods' | prepend: site.baseurl }}">Method 2</a>
       </div>
+      
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/results' | prepend: site.baseurl }}">Results</a>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/about' | prepend: site.baseurl }}">About</a>
 
       <script>
