@@ -18,8 +18,9 @@ For simplicity we suggest to create a separate repo for the webpage (separate fr
 ### Option 1 (new repo)
 * decide on a name for the repository: we suggest to follow the format `DSSGYEAR-name-of-repo` (it will determine the webpage url)
 * provide an eScience Data Scientist with the name and the usernames of all the team members
-* we will create a repo under the [uwescience organization](https://github.com/uwescience) for you and the final address will be [uwescience.github.io/DSSGYEAR-name-of-repo](uwescience.github.io/DSSGYEAR-name-of-repo) (we will use the [repo importer](https://help.github.com/en/articles/importing-a-repository-with-github-importer) and it may take a bit of time)
-* enable publishing through the main branch (Settings -> GitHub-Pages)
+* we will create a repo under the [uwescience organization](https://github.com/uwescience) for you and the final address will be [uwescience.github.io/DSSGYEAR-name-of-repo](uwescience.github.io/DSSGYEAR-name-of-repo) (click `Use This Template` button)
+* enable publishing through the main branch (Settings -> Pages)
+* add a link on the right for quick access to the webpage (pay attention to how the url is created)
 
 ### Option 2 (existing repo)
 
