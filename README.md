@@ -62,6 +62,7 @@ For simplicity we suggest to create a separate repo for the webpage (separate fr
 		* [Macdown Editor for Mac](https://macdown.uranusjr.com/)
 		* [MarkdownPad for Windows](http://markdownpad.com/news/2013/introducing-markdownpad-2/)
 		* [Atom editor](https://atom.io/) has a markdown extension
+		* [Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
 		
 * If you want to preview the webpage locally you need to install [Jekyll](https://jekyllrb.com/docs/installation/)(it is a bit involved), then run
 `bundle exec jekyll serve`
