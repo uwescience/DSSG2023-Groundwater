@@ -155,7 +155,7 @@ a.sidebar-nav-item:hover{
  * contents to the bottom of the sidebar in tablets and up.
  */
 
- @media (min-width: 48em) {
+ /* @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
@@ -163,6 +163,7 @@ a.sidebar-nav-item:hover{
     left:   1rem;
   }
  }
+*/
  
 
 
