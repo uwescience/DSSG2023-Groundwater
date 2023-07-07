@@ -3,7 +3,7 @@
 This is a template for a public [gh-pages](https://pages.github.com/) webpage for DSSG summer projects which can be freely hosted online.
 
 Github Pages are static webpages, i.e. the content (mainly `.html` and `.css`) is sent to the user's browser and executed there (no backend server). That said, they actually can contain some interactive content which is in `.javascript`. The advantage is that one does not need to know these languages, all we need is to write text in `markdown` (thanks to numerous options of [Jekyll Templates](https://jekyllrb.com/))  Github Pages can be used for a lot of different scenarios:
-* examples of older DSSG projects: [Food Safety Project](https://uwescience.github.io/DSSG2016-UnsafeFoods/), [Disaster Damage Detection Project](https://dds-lab.github.io/disaster-damage-detection/)
+* examples of older DSSG projects: [Redistricting Project](https://uwescience.github.io/DSSG2021-redistricting-website/guide/), [Food Safety Project](https://uwescience.github.io/DSSG2016-UnsafeFoods/), [Disaster Damage Detection Project](https://dds-lab.github.io/disaster-damage-detection/)
 
 * example of tutorial content: [git novice lesson](http://swcarpentry.github.io/git-novice/), [lesson template](https://github.com/carpentries/lesson-example)
 
