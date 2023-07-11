@@ -13,6 +13,6 @@ layout: default
 
 **Data Science Lead/s:** 
 
-**DSSG Fellows:** Kimberly Kreiss
+**DSSG Fellows:** Kimberly Kreiss, Maia Powell, Violet Huang, Aanchal Setia
 
 # Abstract or executive summary
