@@ -11,7 +11,7 @@ Individual Bios
 
 Aanchal Setia
 <img src="{{site.url }}{{site.baseurl }}/assets/img/Screen Shot 2023-07-11 at 3.03.54 PM.png">
-Kim Kreiss
+![Kim Kreiss](assets/79F44031-230E-449B-8A8C-8D07195DE985_1_201_a.jpeg)
 Maia Powell
 <img src="{{site.url }}{{site.baseurl }}/assets/img/BA1C78F2-1529-428F-9DAB-F390CBEA6EFB.JPEG">
 Violet Huang
