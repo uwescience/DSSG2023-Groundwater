@@ -5,11 +5,11 @@ permalink:        pretty
 
 
 # Setup
-title:            DSSG Project Name
+title:            DSSG 2023 Groundwater
 tagline:          ''
-description:      'A 2022 Data Science for Social Good summer fellowship project at the University of Washington' 
+description:      'A 2023 Data Science for Social Good summer fellowship project at the University of Washington' 
 url:              "https://uwescience.github.io"
-baseurl:          "/DSSG-website-template"
+baseurl:          "/DSSG2023-Groundwater"
 
 
 paginate:         5
@@ -18,4 +18,4 @@ paginate:         5
 version:          0.0.0
 
 github:
-  repo:           https://github.com/uwescience/DSSG-website-template/
+  repo:          https://github.com/uwescience/DSSG2023-Groundwater
