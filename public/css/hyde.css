@@ -300,3 +300,12 @@ a.sidebar-nav-item:hover{
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* eScience logo */
+.theme-escience .sidebar {
+  background-color: #36236a;
+}
+.theme-escience .content a,
+.theme-escience .related-posts li a:hover {
+  color: #36236a;
+}
