@@ -13,6 +13,6 @@ layout: default
 
 **Data Science Lead/s:** 
 
-**DSSG Fellows:** 
+**DSSG Fellows:** Kimberly Kreiss
 
 # Abstract or executive summary
