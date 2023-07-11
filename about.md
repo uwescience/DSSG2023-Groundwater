@@ -13,6 +13,7 @@ Aanchal Setia
 <img src="{{site.url }}{{site.baseurl }}/assets/img/Screen Shot 2023-07-11 at 3.03.54 PM.png">
 Kim Kreiss
 Maia Powell
+<img src="{{site.url }}{{site.baseurl }}/assets/img/BA1C78F2-1529-428F-9DAB-F390CBEA6EFB.JPEG">
 Violet Huang
 <img src="{{site.url }}{{site.baseurl }}/assets/img/Screen Shot 2023-06-13 at 6.51.35 PM.png">
 
