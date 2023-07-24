@@ -15,20 +15,6 @@ You now have your data in the form of two Pandas **dataframes**: one containing 
     <img src="images/gracegldas_df.png" width="750" /> 
 </p>
 
-# Variables
-
-## Time
-The time granularity for the GRACE and GLDAS datasets we used is monthly. This means that each measurement represents an entire month. 
-
-## Longitude & Latitude
-Latitude is the measurement of distance North or South of the Equator. Similarly, longitude is the measurement of distance East or West of the equator. Longitude and latitude degrees are continuous, meaning that you can be very exact when measuring location. For example, the exact coordinates for the Four Corners Monument is are 36.9990° N, 109.0452° W. 
-
-Our GLDAS data (and GRACE data after upsampling) is given with a granularity of 0.25° (for both longitude and latitude). 
-
-Each "pixel" thus represents a chuck of land approximately 235.46 miles squared ($\approx$ 378.94 kilometers squared).
-<p align="center">
-    <img src="images/lon-lat.png" width="500" />
-</p>
 
 ## Deviation from the Mean
 
