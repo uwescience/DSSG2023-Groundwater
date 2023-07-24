@@ -4,8 +4,7 @@ If you're visiting this website, you're likely interested in understanding how t
 
 ## What can you do with this website?
 
-We've designed this website to streamline the process of accessing and understanding groundwater data, making it easier for those who may have encountered hurdles in the past. 
-By following our comprehensive guide, you'll learn how to work effectively with groundwater data for any region you're interested in.
+We've designed this website to streamline the process of accessing and understanding groundwater data, making it easier for those who may have encountered hurdles in the past. By following our comprehensive guide, you'll learn how to work effectively with groundwater data for any region you're interested in.
 
 Specifically, this website will equip you to:
 - Download the necessary datasets for groundwater calculation.
