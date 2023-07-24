@@ -12,7 +12,7 @@ Let's now take a step back to understand what our data looks like and how to int
 You now have your data in the form of two Pandas **dataframes**: one containing data from GRACE/GRACE-FO and one containing data from GLDAS. This can also be thought of as being in a tabular format, which can be easily saved as a .CSV file. 
 
 <p align="center">
-    <img src="figs/gracegldas_df.png" width="750" /> 
+    <img src="images/gracegldas_df.png" width="750" /> 
 </p>
 
 # Variables
@@ -27,7 +27,7 @@ Our GLDAS data (and GRACE data after upsampling) is given with a granularity of 
 
 Each "pixel" thus represents a chuck of land approximately 235.46 miles squared ($\approx$ 378.94 kilometers squared).
 <p align="center">
-    <img src="figs/lon-lat.png" width="500" />
+    <img src="images/lon-lat.png" width="500" />
 </p>
 
 ## Deviation from the Mean
@@ -43,7 +43,7 @@ where $\mu$ is the average value over the time series*. We then plot these dista
 *Note that GRACE data is computed based upon a basetime time period of January 2004 to December 2009. 
 
 <p align="center">
-    <img src="figs/plots.png" width="750" />
+    <img src="images/plots.png" width="750" />
 </p>
 
 # Sources 
