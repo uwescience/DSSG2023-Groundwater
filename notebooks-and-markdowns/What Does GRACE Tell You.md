@@ -16,7 +16,7 @@ $$
 $$
 
 We list the datasets used to derive each variable in the image below:
-<img src="/home/yhuang21/DSSG2023-Groundwater/notebooks-and-markdowns/Formula.png">
+<img src="DSSG2023-Groundwater/notebooks-and-markdowns/Formula.png">
 
 ## Digging Deeper: What are GRACE and GRACE-FO?
 
