@@ -4,7 +4,7 @@ For this project, we use satellite data and ground-based observation data to est
 
 
 <p align="center">
-<img src="/assets/img/numbered-methods.png" width="500" />
+<img src="{{site.url }}{{site.baseurl }}/assets/img/numbered-methods.png" width="500" />
 </p>
 
 After this, we analyzed and visualized groundwater changes and validated our findings with [x,y,z]. 
