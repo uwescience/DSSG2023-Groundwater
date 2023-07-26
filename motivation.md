@@ -5,7 +5,10 @@ Our overarching goals for the summer are to:
 * Ensure that our workflow (gathering, formatting, analyzing, and visualizing data) is reproducible and can be applied to other regions globally 
 Though groundwater is crucial for water supply in the Colorado River Basin, it historically has not been considered in policy decisions regarding water allocation. By focusing chiefly on this overlooked component of water supply, we highlight the importance of groundwater in daily use. 
 We approach our question by using satellite data (Gravity Recovery and Climate Experiment, Global Land Data Assimilation System, etc.) to measure and analyze groundwater movement. Utilizing satellite data as opposed to in situ measurements of water levels is both cost-advantageous and scalable. 
-We want to enable a diverse set of audiences to understand groundwater changes in the Colorado River Basin. Moreover, we want our workflow to be easily extendable to other areas outside the CRB that may be facing a water crisis. In order to do so, we produce: (1) interactive maps and charts to understand regional groundwater differences within the CRB; (2) Jupyter notebooks with code and descriptions detailing our workflow; (3) a detailed report outlining our methods and findings. 
+We want to enable a diverse set of audiences to understand groundwater changes in the Colorado River Basin. Moreover, we want our workflow to be easily extendable to other areas outside the CRB that may be facing a water crisis. In order to do so, we produce: (1) interactive maps and charts to understand regional groundwater differences within the CRB; (2) Jupyter notebooks with code and descriptions detailing our workflow; (3) a detailed report outlining our methods and findings.
+
+<br>
+<br>
 
 > Background
 
@@ -13,7 +16,8 @@ The Colorado River Basin, a large region spanning the Southwestern United States
 Previous discussions and policy decisions on water allocation in the region have largely focused on surface water–water that is easily visible above ground such as the water in Lake Mead or Lake Powell. In contrast, groundwater is water that exists below the Earth’s surface in saturated soil or rock layers known as aquifers. Despite the lack of focus on groundwater, it remains a crucial resource for water supply in the region, particularly for agricultural areas, residential rural areas, and for compensating for surface water shortages during times of drought. Still, measurement and allocation of groundwater remains difficult and inconsistent. 
 The current set of regulations that governs water allocation in the region is set to expire in 2026. Given the unprecedented water shortage in the region and upcoming policy decisions, making data and information about groundwater in the region easily available and accessible has the potential to provide crucial information that can help inform this important decision. A dataset, reproducible workflow, and clear communication on groundwater levels could thus be extremely impactful for water allocation decisions in the area. Moreover, as other areas in the world face similar water crises, an easy-to-modify workflow that can be adapted to other regions has the potential to globally help manage water shortages. 
 
-
+<br>
+<br>
 
 > Actors with interests
 
@@ -28,7 +32,8 @@ We have taken into account the perspectives of key actors of interests throughou
 **Advocacy Groups**: We are dedicated to ensuring that our tools are accessible to individuals without extensive technical expertise. Our objective is to provide visualizations and reports that support advocacy groups in their endeavors to raise awareness and utilize scientific data. By doing so, we aim to assist these groups in advocating for sustainable groundwater management practices and fostering a greater understanding of the groundwater among broader audiences.
 
 
-
+<br>
+<br>
 
 > Ethics
 
