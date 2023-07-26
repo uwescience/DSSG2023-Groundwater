@@ -1,4 +1,4 @@
-> Introduction
+> **Introduction**
 
 Our overarching goals for the summer are to: 
 * **Address how has groundwater changed over time in the Colorado River Basin (CRB)**
@@ -12,16 +12,18 @@ We want to enable a diverse set of audiences to understand groundwater changes i
 <br>
 <br>
 
-> Background
+> **Background**
 
 The Colorado River Basin, a large region spanning the Southwestern United States, parts of Mexico, and various tribal nations, is facing unprecedented water scarcity. Colloquially known as “the lifeblood of the Southwest”, the Colorado River provides water for 40 million people, supplies irrigation for 5 million acres of agricultural land, and supports $1.4 trillion in annual economic activity. Vitally important for social, economic, and cultural purposes, the river is facing record shortages largely due to climate change and regional increases in development. Indeed, the Bureau of Reclamation recently declared the first ever water shortage in the region and a report from [cite] shows that demand for water in the region is expected to exceed supply in the coming decades.  
+
 Previous discussions and policy decisions on water allocation in the region have largely focused on surface water–water that is easily visible above ground such as the water in Lake Mead or Lake Powell. In contrast, groundwater is water that exists below the Earth’s surface in saturated soil or rock layers known as aquifers. Despite the lack of focus on groundwater, it remains a crucial resource for water supply in the region, particularly for agricultural areas, residential rural areas, and for compensating for surface water shortages during times of drought. Still, measurement and allocation of groundwater remains difficult and inconsistent. 
+
 The current set of regulations that governs water allocation in the region is set to expire in 2026. Given the unprecedented water shortage in the region and upcoming policy decisions, making data and information about groundwater in the region easily available and accessible has the potential to provide crucial information that can help inform this important decision. A dataset, reproducible workflow, and clear communication on groundwater levels could thus be extremely impactful for water allocation decisions in the area. Moreover, as other areas in the world face similar water crises, an easy-to-modify workflow that can be adapted to other regions has the potential to globally help manage water shortages. 
 
 <br>
 <br>
 
-> Actors with interests
+> **Actors with interests**
 
 We have taken into account the perspectives of key actors of interests throughout the course of this project. As a result, we have developed multiple tools to ensure the accessibility of GRACE data. These tools have been designed to empower and inform decision-making, research, and advocacy efforts.
 
@@ -37,7 +39,7 @@ We have taken into account the perspectives of key actors of interests throughou
 <br>
 <br>
 
-> Ethics
+> **Ethics**
 
 Working on groundwater and water insecurity in this project brings up complex ethical issues across multiple domains. Politically, groundwater management varies significantly across different levels of government. Additionally, Tribal Nations and Mexico are often influenced by these management decisions, but are not always included in the discussions. Groundwater depletion and water insecurity impact different groups in disproportionate ways financially, socially, and culturally. Moreover, given the complexity of the datasets we work with, presenting our products and documentation in concise fashion could prevent audiences with less technical background from fully utilizing our products.
 
