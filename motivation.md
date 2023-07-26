@@ -1,11 +1,13 @@
 > Introduction
 
 Our overarching goals for the summer are to: 
-* Address how has groundwater changed over time in the Colorado River Basin (CRB)
-* Ensure that our workflow (gathering, formatting, analyzing, and visualizing data) is reproducible and can be applied to other regions globally 
+* **Address how has groundwater changed over time in the Colorado River Basin (CRB)**
+* **Ensure that our workflow (gathering, formatting, analyzing, and visualizing data) is reproducible and can be applied to other regions globally**
+
+
 Though groundwater is crucial for water supply in the Colorado River Basin, it historically has not been considered in policy decisions regarding water allocation. By focusing chiefly on this overlooked component of water supply, we highlight the importance of groundwater in daily use. 
 We approach our question by using satellite data (Gravity Recovery and Climate Experiment, Global Land Data Assimilation System, etc.) to measure and analyze groundwater movement. Utilizing satellite data as opposed to in situ measurements of water levels is both cost-advantageous and scalable. 
-We want to enable a diverse set of audiences to understand groundwater changes in the Colorado River Basin. Moreover, we want our workflow to be easily extendable to other areas outside the CRB that may be facing a water crisis. In order to do so, we produce: (1) interactive maps and charts to understand regional groundwater differences within the CRB; (2) Jupyter notebooks with code and descriptions detailing our workflow; (3) a detailed report outlining our methods and findings.
+We want to enable a diverse set of audiences to understand groundwater changes in the Colorado River Basin. Moreover, we want our workflow to be easily extendable to other areas outside the CRB that may be facing a water crisis. In order to do so, we produce: (1) **interactive maps and charts to understand regional groundwater differences within the CRB**; (2) **Jupyter notebooks with code and descriptions detailing our workflow**; (3) **a detailed report outlining our methods and findings**.
 
 <br>
 <br>
