@@ -4,4 +4,4 @@ For this project, we use satellite data and ground-based observation data to est
 
 [flowchart]
 
-After this we analyzed and visualized groundwater changes and used this to validate our findings with [x,y,z]. 
+After this, we analyzed and visualized groundwater changes and validated our findings with [x,y,z]. 
