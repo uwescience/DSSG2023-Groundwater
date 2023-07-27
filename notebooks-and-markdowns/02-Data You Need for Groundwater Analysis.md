@@ -18,12 +18,18 @@ $$
 We list the datasets used to derive each variable in the image below:
 <img src="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/images/CorrectFormula.png">
 
-## Digging Deeper: What are GRACE and GRACE-FO?
+## Digging Deeper: 
+
+###What are GRACE and GRACE-FO?
 
 The GRACE mission, a collaboration between NASA and German space agencies (DLR), is designed to track changes in Earth's gravity field by monitoring the distance between two satellites orbiting our planet. By utilizing specific models, scientists can convert changes in the gravity field into changes in Earth's terrestrial water storage. Initiated in March 2002 and concluded in October 2017, the GRACE mission provided critical data on a monthly basis. Picking up where GRACE left off, GRACE-FO was launched in May 2018 to continue this important work.
 
 Interested in the finer details of how GRACE and GRACE-FO measure changes in terrestrial water storage? Continue reading the following section. If not, feel free to proceed to the next page to start exploring the data.
 
+### What is GLDAS?
+
+GLDAS uses advanced land surface modelling and data assimilation techniques on satellite and ground-based observational data to generate optimal fields of land surface states and fluxes. Currently, GLDAS drives three land surface models (LSMs): Noah, Catchment (CLSM), and the Variable Infiltration Capacity (VIC). The GLDAS-2 products are available at two temporal resolutions: 3-hourly and daily. The monthly products are generated through temporal averaging of the 3-hourly products. (For more detailed information, please refer to the [GLDAS handbook](https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/GLDAS_NOAH025_M.2.1/doc/README_GLDAS2.pdf))
+  
 ### Frequently Asked Questions about GRACE and GRACE-FO
 
 **Q: How do scientists measure change in Earth's gravity fields?**
@@ -47,3 +53,13 @@ Interested in the finer details of how GRACE and GRACE-FO measure changes in ter
 **A:** For more information that's relevant to hydrological information, you could refer to their [Level-3 Data Product User Handbook](https://deotb6e7tfubr.cloudfront.net/s3-edaf5da92e0ce48fb61175c28b67e95d/podaac-ops-cumulus-docs.s3.us-west-2.amazonaws.com/gracefo/open/docs/GRACE-FO_L3_Handbook_JPL.pdf?A-userid=None&Expires=1690241615&Signature=bNV~ixhHoOupQqiGtGhqH9Hfe7t7cc3OV7lpXOdLs0pOTMY1IgS2hYr2XRFtszFYucNVarcxrmIQGkwIB4CP5svHDiY3VuX4Gdy428RmNQ3BdAyiOhS6zxkkFJ77Osmu9t2P~JAu7CbijgeGxObAXtv9fsVb6sQgpllMB5PA9LplawrqBipZIs-84VX5CSDSFYIKZogv~d1jT8~AaE7I3GG79~osAsIaZ3v66OTDNJ4wHnjOLixptO5-85MrjtrHW07fQXXdyYfSLafNfDaFQCkaawGE1XZSpTSf8Krr0t~Zzl97wAUPzlvmr74HtWcHo6kuC70Qkzi9BLVkGADykA__&Key-Pair-Id=K353YVLLPST7AQ). Other documentations of GRACE and GRACE-FO mission are accessible [here](https://podaac.jpl.nasa.gov/gravity/gracefo-documentation).
 [^1]: https://grace.jpl.nasa.gov/applications/groundwater/
 [^2]: https://nap.nationalacademies.org/read/25754/
+
+**Q: Which version of GLDAS should I use?**
+
+**A:** GLDAS has three components: GLDAS-2.0, GLDAS-2.1, and GLDAS 2.2.
+
+The key difference among these versions lies in the data assimilation techniques they employ.
+
+GLDAS-2.0 and GLDAS-2.1 are open-loop products, meaning they do not use data assimilation techniques. Data assimilation is a process that combines observational data with model simulations to improve the accuracy of the resulting output. In contrast, GLDAS-2.2 utilizes data assimilation techniques, making it a more advanced version compared to GLDAS-2.0 and GLDAS-2.1.
+
+For our project, we have chosen to use GLDAS-2.2 because of its improved accuracy and the incorporation of observational data through data assimilation, which helps to provide more reliable land surface variables for analysis and decision-making.
