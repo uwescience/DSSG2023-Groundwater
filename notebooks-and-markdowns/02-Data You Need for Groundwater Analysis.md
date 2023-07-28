@@ -32,7 +32,7 @@ GLDAS uses advanced land surface modelling and data assimilation techniques on s
 
 In our project, we have used the NOAH Land Surface Model. We have also provided information about the Catchment Land Surface Model. 
 The NOAH Land Surface Model allows the researchers to compute groundwater using various levels of soil moisture (0-10 cm,10-40 cm,40-100 cm,100-200 cm). 
-Our project has used the following equation:
+**Our project has used the following equation:**
 
 $$
 \Delta Groundwater = \Delta Terrestrial Water Storage - \Delta SoilMoisture - \Delta Snow Water Equivalent - \Delta Surface Water
