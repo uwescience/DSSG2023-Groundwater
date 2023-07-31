@@ -1,3 +1,0 @@
-
-podaac-data-subscriber -c TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06.1_V3 -d ~/remoteData/TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06.1_V3 --start-date 2002-04-04T00:00:00Z --end-date 2023-09-01T00:00:00Z
-
