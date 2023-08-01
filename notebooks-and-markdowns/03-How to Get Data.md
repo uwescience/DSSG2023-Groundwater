@@ -17,13 +17,13 @@ The goal of this notebook is to provide instructions for:
   <h2>Section I: Downloading GRACE & GLDAS Data (needs python >= 3.7)</h1>
 </div>
 
-Step 1: Register for an Account  
+<b>Step 1:</b>  Register for an Account  
 
 To access the data, you need to register for an account at [https://urs.earthdata.nasa.gov](https://urs.earthdata.nasa.gov). Follow the instructions on the website to create your profile. Follow the instructions on the website to create your profile.
 
-  <b>Step 2:</b> To download the GRACE dataset, download the shell file from <a href="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/scripts/data/download_data.sh"><b>here</b></a>.
+ <b>Step 2:</b> To download both <b>GRACE & GLDAS dataset</b>, download the shell file from <a href="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/scripts/data/download_data.sh"><b>here</b></a>. If you are only interested in downloading <b>GRACE</b>, download its shell file from <a href="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/scripts/data/download_grace_data.sh"><b>here</b></a>. If you are only interested in downloading <b>GLDAS</b>, download its shell file from <a href="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/scripts/data/download_gldas_data.sh"><b>here</b></a>.
 
- <b>Step 3: </b> In the terminal, run <code>echo `$HOME`</code>, then <code>pwd</code>. Make sure the two locations are the same.
+ <b>Step 3: </b> Open the terminal and run <code>echo `$HOME`</code>, then <code>pwd</code>. Make sure the two locations are the same.
  
  <img src="images/Step3.gif">
  
@@ -31,15 +31,14 @@ To access the data, you need to register for an account at [https://urs.earthdat
 
 To set up your `.netrc` file for accessing [https://urs.earthdata.nasa.gov](https://urs.earthdata.nasa.gov), follow these steps:
 
-1. Open the terminal.
-2. Create and open the `.netrc` file at the desired location with the following commands:
+1. Create and open the `.netrc` file at the desired location with the following commands:
 
 ```bash{style="background-color: #f0f0f0"}
 touch .netrc   # creates the file
 nano .netrc    # opens the file in the nano text editor
 ```
 
-3. In the `.netrc` file, enter the following information:
+2. In the `.netrc` file, enter the following information:
 
 ```bash
 machine urs.earthdata.nasa.gov
@@ -47,17 +46,17 @@ login <your username>
 password <your password>
 ```
 
+3. Type the command: `chmod +x download_data.sh` and press Enter.
 
 <img src="images/Step4.gif">
 
-4<b>Step 5:</b>  Download the Dataset
+<b>Step 5:</b>  Download the Dataset
 
 To download the dataset using the downloaded shell file in the terminal, follow these steps:
 
-1. Open the terminal.
-2. Navigate to the folder where the shell file is downloaded.
-3. Type the command: `chmod 777 download_data.sh` and press Enter.
-4. Now, run the command: `./download_data.sh` to initiate the download process.
+1. In the terminal, navigate to the folder where the shell file is downloaded.
+2. Type the command: `chmod +x download_data.sh` and press Enter.
+3. Now, run the command: `./download_data.sh` to initiate the download process.
 
 <img src="images/Step5.gif">
 
@@ -73,16 +72,15 @@ Step 6: The download will begin :D
 
 The shell file contains the path to download GRACE-FO data till 2023-06-23. If you want to download data for different time points, follow these steps to edit the start or end date in the shell file:
 
-1. Open the terminal.
-2. Navigate to the folder where the shell file is downloaded.
-3. Open the file in a text editor using the command: `nano download_data.sh`
-4. Edit the start and end dates as per your requirement.
-5. Save your changes by pressing `Ctrl+O` and then confirm the filename with `Enter`.
-6. Exit the text editor by pressing `Ctrl+X`.
+1. In the terminal, navigate to the folder where the shell file is downloaded.
+2. Open the file in a text editor using the command: `nano download_data.sh`
+3. Edit the start and end dates as per your requirement.
+4. Save your changes by pressing `Ctrl+O` and then confirm the filename with `Enter`.
+5. Exit the text editor by pressing `Ctrl+X`.
 
 <img src="images/Step6.gif">
 
-7. Repeat Steps 3 till Steps 6 from Section I.
+6. Repeat Steps 3 till Steps 6 from Section I.
 
 
 ###How to download GLDAS data for a different time period? Or any other dataset from the NASA Earth Data?
