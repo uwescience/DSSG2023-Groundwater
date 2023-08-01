@@ -46,7 +46,7 @@ login <your username>
 password <your password>
 ```
 
-3. Type the command: `chmod 777 download_data.sh` and press Enter.
+3. Type the command: `chmod +x download_data.sh` and press Enter.
 
 <img src="images/Step4.gif">
 
@@ -55,7 +55,7 @@ password <your password>
 To download the dataset using the downloaded shell file in the terminal, follow these steps:
 
 1. In the terminal, navigate to the folder where the shell file is downloaded.
-2. Type the command: `chmod 777 download_data.sh` and press Enter.
+2. Type the command: `chmod +x download_data.sh` and press Enter.
 3. Now, run the command: `./download_data.sh` to initiate the download process.
 
 <img src="images/Step5.gif">
