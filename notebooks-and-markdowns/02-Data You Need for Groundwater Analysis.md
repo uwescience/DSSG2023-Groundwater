@@ -1,8 +1,8 @@
 #  Unraveling the Mystery of Groundwater Measurement
 
 Traditionally, governmental bodies and water agencies relied on [in situ measurement](https://www.usgs.gov/faqs/how-can-i-find-depth-water-table-specific-location#:~:text=The%20most%20reliable%20method%20of,placing%20electric%20or%20acoustic%20probes.)  to monitor groundwater in the U.S. However, such approach has several limitations:
-- Groundwater can only be monitored in places where monitoring wells are available, making wells drilled on private property difficult to monitor[^1].
-- Drilling monitoring wells can be time consuming and costly across large areas[^2].
+- Groundwater can only be monitored in places where monitoring wells are available, making wells drilled on private property [difficult to monitor](https://grace.jpl.nasa.gov/applications/groundwater/).
+- Drilling monitoring wells can be [time consuming and costly across large areas](https://nap.nationalacademies.org/read/25754/).
 
 
 Scientists have responded to these constraints by turning to space. More specifically, they use the Gravity Recovery and Climate Experiment (GRACE) and the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) data collected by NASA. These datasets track changes in terrestrial water storage around the globe, encompassing water found in lakes, rivers, soil, snowpack, and underground aquifers. By combining GRACE with other datasets that provide measurements on soil moisture, snowpack, and surface water, we can create estimates of groundwater anamolies. 
@@ -16,7 +16,7 @@ $$
 $$
 
 We list the datasets used to derive each variable in the image below:
-<img src="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/images/CorrectFormula.png">
+<img src="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/images/Formula.png">
 
 ## Digging Deeper: 
 
@@ -32,7 +32,7 @@ GLDAS uses advanced land surface modelling and data assimilation techniques on s
 
 In our project, we have used the NOAH Land Surface Model. We have also provided information about the Catchment Land Surface Model. 
 The NOAH Land Surface Model allows the researchers to compute groundwater using various levels of soil moisture (0-10 cm,10-40 cm,40-100 cm,100-200 cm). 
-Our project has used the following equation:
+**Our project has used the following equation:**
 
 $$
 \Delta Groundwater = \Delta Terrestrial Water Storage - \Delta SoilMoisture - \Delta Snow Water Equivalent - \Delta Surface Water
