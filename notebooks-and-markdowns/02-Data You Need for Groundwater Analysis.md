@@ -20,7 +20,7 @@ We list the datasets used to derive each variable in the image below:
 
 ## Digging Deeper: 
 
-###What are GRACE and GRACE-FO?
+### What are GRACE and GRACE-FO?
 
 The GRACE mission, a collaboration between NASA and German space agencies (DLR), is designed to track changes in Earth's gravity field by monitoring the distance between two satellites orbiting our planet. By utilizing specific models, scientists can convert changes in the gravity field into changes in Earth's terrestrial water storage. Initiated in March 2002 and concluded in October 2017, the GRACE mission provided critical data on a monthly basis. Picking up where GRACE left off, GRACE-FO was launched in May 2018 to continue this important work.
 
@@ -32,6 +32,7 @@ GLDAS uses advanced land surface modelling and data assimilation techniques on s
 
 In our project, we have used the NOAH Land Surface Model. We have also provided information about the Catchment Land Surface Model. 
 The NOAH Land Surface Model allows the researchers to compute groundwater using various levels of soil moisture (0-10 cm,10-40 cm,40-100 cm,100-200 cm). 
+
 **Our project has used the following equation:**
 
 $$
@@ -53,6 +54,14 @@ Choosing our workflow allows you to obtain accurate groundwater estimates throug
 Moreover, there are multiple equations for computing groundwater in the literature. Our workflow provides you with the freedom and resources to compute groundwater based on your equation of interest.
 
 In summary, you have the choice to either use the groundwater variable directly from the CLM dataset or leverage our workflow for groundwater computation. This flexibility ensures that researchers with varying computational setups can access valuable groundwater information without facing storage or processing limitations.
+
+### What are the Bureau of Reclamation and the United States Geological Survey?
+
+In our procedure, we employ the reservoir storage records from two agencies, the Bureau of Reclamation and the United States Geological Survey (USGS), to calculate surface water within the Colorado River Basin.
+
+The Bureau of Reclamation, a federal entity under the U.S. Department of the Interior, is charged with the stewardship, development, and protection of water-related resources in the western U.S. This responsibility is subdivided into specific regions. For the purpose of our project, we are specifically focusing on the [HydroData database](https://www.usbr.gov/uc/water/hydrodata/reservoir_data/site_map.html#), maintained by the Upper Colorado Basin office.
+
+On the other hand, the USGS serves as the scientific division of the U.S. Department of the Interior, providing a wealth of data related to earth science, water, biology, and mapping to facilitate informed decision-making. Their [Water Daily Data for the Nation](https://waterdata.usgs.gov/nwis/nwis) database delivers water-related data collected from across the U.S. For the scope of this project, we are solely focusing on the surface water data contained within their database.
 
 
 ## Frequently Asked Questions about GRACE and GRACE-FO
