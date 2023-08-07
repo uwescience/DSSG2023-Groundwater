@@ -30,8 +30,7 @@ Interested in the finer details of how GRACE and GRACE-FO measure changes in ter
 
 GLDAS uses advanced land surface modelling and data assimilation techniques on satellite and ground-based observational data to generate optimal fields of land surface states and fluxes. Currently, GLDAS drives three land surface models (LSMs): Noah, Catchment (CLSM), and the Variable Infiltration Capacity (VIC). The GLDAS-2 products are available at two temporal resolutions: 3-hourly and daily. The monthly products are generated through temporal averaging of the 3-hourly products. (For more detailed information, please refer to the [GLDAS handbook](https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/GLDAS_NOAH025_M.2.1/doc/README_GLDAS2.pdf))
 
-In our project, we have used the NOAH Land Surface Model. We have also provided information about the Catchment Land Surface Model. 
-The NOAH Land Surface Model allows the researchers to compute groundwater using various levels of soil moisture (0-10 cm,10-40 cm,40-100 cm,100-200 cm). 
+In our project, we have used the NOAH Land Surface Model. The NOAH Land Surface Model allows the researchers to compute groundwater using various levels of soil moisture (0-10 cm,10-40 cm,40-100 cm,100-200 cm). 
 
 **Our project has used the following equation:**
 
@@ -39,21 +38,11 @@ $$
 \Delta Groundwater = \Delta Terrestrial Water Storage - \Delta SoilMoisture - \Delta Snow Water Equivalent - \Delta Surface Water
 $$
 
-On the other hand, Catchment Land Surface Model dataset provides a groundwater variable that is computed based on the 0-100 cm soil moisture (known as RootZone soil moisture). Groundwater variable in CLM is computed using the following equation: 
 
-$$
-\Delta Groundwater = \Delta Terrestrial Water Storage - \Delta SoilMoisture(0-100cm) - \Delta Snow Water Equivalent - \Delta Canopy Interception
-$$
-
-If you are interested in computing groundwater via this equation, you should simply use the groundwater variable from CLM dataset. However, it is important to note that the CLM dataset has a size of 111 GB. If you do not have sufficient storage and computational resources, our workflow might be a more suitable option for computing groundwater.
-
-By utilizing our workflow, you can efficiently compute groundwater without the need to store and process the entire 111 GB CLM dataset locally. This can be particularly beneficial if your system lacks the necessary storage space and computational capacity to handle such a large dataset.
-
-Choosing our workflow allows you to obtain accurate groundwater estimates through a more optimized approach. It involves data preprocessing, selective feature extraction, and other techniques to streamline the computation and reduce resource requirements.
+By utilizing our workflow, you can efficiently compute groundwater estimates through a more optimized approach. It involves data preprocessing, selective feature extraction, and other techniques to streamline the computation and reduce resource requirements.
 
 Moreover, there are multiple equations for computing groundwater in the literature. Our workflow provides you with the freedom and resources to compute groundwater based on your equation of interest.
 
-In summary, you have the choice to either use the groundwater variable directly from the CLM dataset or leverage our workflow for groundwater computation. This flexibility ensures that researchers with varying computational setups can access valuable groundwater information without facing storage or processing limitations.
 
 ### What are the Bureau of Reclamation and the United States Geological Survey?
 
