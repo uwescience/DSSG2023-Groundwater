@@ -5,7 +5,9 @@ This repository contains the code for the 2023 DSSG Groundwater Project. This re
 The repository has three main folders: 
 
 notebooks-and-markdowns/
+
 output/
+
 scripts/
 
 
