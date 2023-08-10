@@ -1,6 +1,6 @@
 # Data Science for Social Good 2023: Groundwater Project
 
-A reproducible and well-documented workflow to analyze groundwater scarcity in the Colorado River Basin. This workflow is written in python and contained in a set of Jupyter notebooks which can be used by researchers, analysts, or anyone interested in applying this workflow to study groundwater. 
+A reproducible and well-documented workflow to analyze groundwater scarcity in the Colorado River Basin. This workflow is written in python and contained in a set of Jupyter notebooks which can be used by researchers, analysts, or anyone interested in applying this workflow to study groundwater. Though we focus on the Colorado River Basin, this workflow is flexible and can be easily modified to study other areas suffering from water crises. 
 
 ## Tools and Skills Needed for This Workflow
 
