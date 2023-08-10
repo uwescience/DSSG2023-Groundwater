@@ -8,6 +8,7 @@ Snow Water Equivalent
 Soil Moisture   
 Surface Water   
 Anomaly   
-Mascon (?)    
-Shapefile (?)   
-Pixel (?)    
+Mascon 
+Shapefile 
+Pixel 
+Upsampling
