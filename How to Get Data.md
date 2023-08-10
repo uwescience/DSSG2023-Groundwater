@@ -15,7 +15,7 @@ The goal of this notebook is to provide instructions for:
 - Downloading multiple versions of GRACE & GLDAS data & potentially other datasets of interest hosted on NASA Earth Data.
 
 
-## Section I: Downloading GRACE & GLDAS Data (needs python >= 3.7)</h1>
+## Section I: Downloading GRACE & GLDAS Data (needs python >= 3.7)
 
 
 <b>Step 1:</b>  Register for an Account  
@@ -26,7 +26,7 @@ To access the data, you need to register for an account at [https://urs.earthdat
 
  <b>Step 3: </b> Open the terminal and run <code>echo `$HOME`</code>, then <code>pwd</code>. Make sure the two locations are the same.
  
- <img src="DSSG2023-Groundwater/notebooks-and-markdowns/images/Step3.gif">
+<img src="{{ site.baseurl }}/code/DSSG2023-Groundwater/notebooks-and-markdowns/images/Step3.gif">
  
 <b>Step 4:</b>  Create and Configure .netrc File
 
@@ -64,7 +64,7 @@ To download the dataset using the downloaded shell file in the terminal, follow 
 Step 6: The download will begin :D
 
 
-## Section II: Customising GRACE-FO and GLDAS Data</h1>
+## Section II: Customising GRACE-FO and GLDAS Data
 
 
 
