@@ -10,7 +10,7 @@ A reproducible and well-documented workflow to analyze groundwater scarcity in t
 
 ## Overview of Workflow 
 
-This workflow is most useful when a user can clone or download this repository and run each Jupyter notebook on their machine. The repository has three main folders, which are described below: 
+This workflow is intended to be used directly on a user's machine. The repository should be cloned or downloaded and the user should follow the instructions outlined in the workflow and run the code and scripts locally. The repository has three main folders, which are described below: 
 
 #### notebooks-and-markdowns/
 
