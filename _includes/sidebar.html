@@ -21,10 +21,8 @@ h<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesom
           <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-container">
-          <a href="{{ '/overview' | prepend: site.baseurl }}">Overview</a><br/>
+         <a href="{{ '/overview' | prepend: site.baseurl }}">Overview</a><br/>
           <a href="{{ '/01-What is Your Question' | prepend: site.baseurl }}">01-What is Your Question</a>
-          <a href="{{ '/02-Data You Need for Groundwater Analysis' | prepend: site.baseurl }}">02-Data You Need for Groundwater Analysis</a>
-          <a href="{{ '/03-How to Get Data' | prepend: site.baseurl }}">/03-How to Get Data</a>
           <button class="dropdown-btn">04
              <i class="fa fa-caret-down"></i>
           </button>
@@ -34,7 +32,7 @@ h<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesom
           </div>
 
       </div>
-      
+
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/glossary' | prepend: site.baseurl }}">Glossary</a>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/about' | prepend: site.baseurl }}">About</a>
 
