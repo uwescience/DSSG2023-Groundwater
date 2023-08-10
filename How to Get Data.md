@@ -1,6 +1,7 @@
-<div align="center">
-  <h1>Instructions on Downloading the GRACE & GLDAS Data</h1>
-</div>
+---
+layout: page
+title: Instructions on Downloading the GRACE & GLDAS Data
+---
 
 The goal of this notebook is to provide instructions for:
 
