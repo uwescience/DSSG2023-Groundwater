@@ -1,4 +1,7 @@
-#  Unraveling the Mystery of Groundwater Measurement
+---
+layout: page
+title: Unraveling the Mystery of Groundwater Measurement
+---
 
 Traditionally, governmental bodies and water agencies relied on [in situ measurement](https://www.usgs.gov/faqs/how-can-i-find-depth-water-table-specific-location#:~:text=The%20most%20reliable%20method%20of,placing%20electric%20or%20acoustic%20probes.)  to monitor groundwater in the U.S. However, such approach has several limitations:
 - Groundwater can only be monitored in places where monitoring wells are available, making wells drilled on private property [difficult to monitor](https://grace.jpl.nasa.gov/applications/groundwater/).
