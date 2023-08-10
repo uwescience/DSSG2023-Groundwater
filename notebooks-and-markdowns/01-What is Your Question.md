@@ -12,7 +12,7 @@ Specifically, this website will equip you to:
 - Validate the integrity of the groundwater data obtained.
 - Visualize the data in informative and engaging ways.
 
-## What else can you do (but not in this website)?
+## Further steps you can take after visiting this website?
 
 After you've obtained and familiarized yourself with groundwater and GRACE data, a multitude of exciting projects and applications await that extend beyond this website's scope. To help you embark on your journey, we've compiled some suggestions and useful resources:
 
