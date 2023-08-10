@@ -6,6 +6,8 @@
 
 **Terrestrial Water Storage (TWS):** the summation of all water on the land surface and below the surface. 
 
+**Land Water Equivalent (LWE):** a concept typically used in hydrology and environmental science to express the equivalent amount of water that would cover the entire land surface. It's a way to quantify the volume of water required to cover the land to a certain depth, simlar to how the term "rainfall depth" is used to describe the depth of water that falls over an area due to precipitation. 
+
 **Groundwater:** water present beneath the Earth's surface that exists in saturated zones. 
 
 **Aquifer:** A body of saturated rock undergound through which water can easily move. 
