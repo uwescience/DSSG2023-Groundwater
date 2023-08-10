@@ -26,7 +26,7 @@ To access the data, you need to register for an account at [https://urs.earthdat
 
  <b>Step 3: </b> Open the terminal and run <code>echo `$HOME`</code>, then <code>pwd</code>. Make sure the two locations are the same.
  
- <img src="images/Step3.gif">
+ <img src="DSSG2023-Groundwater/notebooks-and-markdowns/images/Step3.gif">
  
 <b>Step 4:</b>  Create and Configure .netrc File
 
