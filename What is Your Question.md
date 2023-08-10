@@ -1,4 +1,4 @@
-# Welcome to Your Groundwater Data Journey
+## Welcome to Your Groundwater Data Journey
 
 If you're visiting this website, you're likely interested in understanding how to leverage satellite data for groundwater measurement, specifically using Gravity Recovery and Climate Experiment (GRACE) data.
 
