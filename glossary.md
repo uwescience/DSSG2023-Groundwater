@@ -2,19 +2,19 @@
 
 ## Hydrological Terms
 
-**River Basin:** an area of land drained by a river and its tributaries.      
+**River Basin:** An area of land drained by a river and its tributaries.      
 
-**Terrestrial Water Storage (TWS):** the summation of all water on the land surface and below the surface. 
+**Terrestrial Water Storage (TWS):** The summation of all water on the land surface and below the surface. 
 
-**Land Water Equivalent (LWE):** a concept typically used in hydrology and environmental science to express the equivalent amount of water that would cover the entire land surface. It's a way to quantify the volume of water required to cover the land to a certain depth, simlar to how the term "rainfall depth" is used to describe the depth of water that falls over an area due to precipitation. 
+**Land Water Equivalent (LWE):** A concept typically used in hydrology and environmental science to express the equivalent amount of water that would cover the entire land surface. It's a way to quantify the volume of water required to cover the land to a certain depth, simlar to how the term "rainfall depth" is used to describe the depth of water that falls over an area due to precipitation. 
 
-**Groundwater:** water present beneath the Earth's surface that exists in saturated zones. 
+**Groundwater:** Water present beneath the Earth's surface that exists in saturated zones. 
 
 **Aquifer:** A body of saturated rock undergound through which water can easily move. 
 
-**Surface Water:** water that is present on top of land, forming terrestrial waterbodies, such as lakes, rivers or reservoirs. 
+**Surface Water:** Water that is present on top of land, forming terrestrial waterbodies, such as lakes, rivers or reservoirs. 
 
-**Snow Water Equivalent (SWE):** describes the amount of liquid water stored in snow pack. For example, if 10 inches of snow falls at 10% density, then there would be 1 inch of SWE. 
+**Snow Water Equivalent (SWE):** Describes the amount of liquid water stored in snow pack. For example, if 10 inches of snow falls at 10% density, then there would be 1 inch of SWE. 
 
 **Root Zone Soil Moisture:** Water stored in soil that is available to plants, generally considered to be in the upper 200 centimeters of soil. 
 
