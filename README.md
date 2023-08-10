@@ -1,14 +1,28 @@
-# Data Science for Social Good: Groundwater Project
+# Data Science for Social Good 2023: Groundwater Project
 
-This repository contains the code for the 2023 DSSG Groundwater Project. This repository contains a reproducible and well-documented workflow to analyze groundwater scarcity in the Colorado River Basin. This workflow is contained in a set of Jupyter notebooks which can be used by researchers, analysts, or anyone interested in applying this workflow to study groundwater. 
+A reproducible and well-documented workflow to analyze groundwater scarcity in the Colorado River Basin. This workflow is written in python and contained in a set of Jupyter notebooks which can be used by researchers, analysts, or anyone interested in applying this workflow to study groundwater. 
 
-The repository has three main folders: 
+## Tools and Skills Needed for This Workflow
 
-notebooks-and-markdowns/
++ Python 
++ Jupyter Notebooks
++ Familiarity with basic terminal commands
 
-output/
+## Overview of Workflow 
 
-scripts/
+This workflow is most useful when a user can clone or download this repository and run each Jupyter notebook on their machine. The repository has three main folders, which are described below: 
+
+#### notebooks-and-markdowns/
+
+The Jupyter notebooks and markdowns containing the code and information to implement our workflow. These files are numbered and should be used in the order that is shown. Note that the workflow assumes that main folder of the git repo is your working directory--paths throughout the workflow are set relative to there. 
+
+#### output/
+
+A folder that contains output from the workflow, including downloaded data from GRACE and GLDAS. 
+
+#### scripts/
+
+Additional scripts that are necessary for the workflow such as shell scripts to download GRACE and GLDAS data or additional analysis files. 
 
 
 
