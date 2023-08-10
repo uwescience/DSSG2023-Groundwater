@@ -3,6 +3,7 @@ layout: page
 title: Instructions on Downloading the GRACE & GLDAS Data
 ---
 
+
 The goal of this notebook is to provide instructions for:
 
 - Downloading these specific datasets:
@@ -14,7 +15,7 @@ The goal of this notebook is to provide instructions for:
 - Downloading multiple versions of GRACE & GLDAS data & potentially other datasets of interest hosted on NASA Earth Data.
 
 
-#Section I: Downloading GRACE & GLDAS Data (needs python >= 3.7)</h1>
+# Section I: Downloading GRACE & GLDAS Data (needs python >= 3.7)</h1>
 
 
 <b>Step 1:</b>  Register for an Account  
@@ -63,11 +64,11 @@ To download the dataset using the downloaded shell file in the terminal, follow 
 Step 6: The download will begin :D
 
 
-#Section II: Customising GRACE-FO and GLDAS Data</h1>
+# Section II: Customising GRACE-FO and GLDAS Data</h1>
 
 
 
-###How to download GRACE-FO data for a different time period?
+### How to download GRACE-FO data for a different time period?
 
 The shell file contains the path to download GRACE-FO data till 2023-06-23. If you want to download data for different time points, follow these steps to edit the start or end date in the shell file:
 
@@ -82,7 +83,7 @@ The shell file contains the path to download GRACE-FO data till 2023-06-23. If y
 6. Repeat Steps 3 till Steps 6 from Section I.
 
 
-###How to download GLDAS data for a different time period? Or any other dataset from the NASA Earth Data?
+### How to download GLDAS data for a different time period? Or any other dataset from the NASA Earth Data?
 
 1. Locate the most recent GLDAS dataset or any other dataset you would like to download on [https://search.earthdata.nasa.gov/](https://search.earthdata.nasa.gov/) and click on it.
 
