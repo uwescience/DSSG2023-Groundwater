@@ -26,8 +26,8 @@ To access the data, you need to register for an account at [https://urs.earthdat
 
  <b>Step 3: </b> Open the terminal and run <code>echo `$HOME`</code>, then <code>pwd</code>. Make sure the two locations are the same.
  
-<img src="{{ site.baseurl }}/code/DSSG2023-Groundwater/notebooks-and-markdowns/images/Step3.gif">
- 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/Step3.gif">
+
 <b>Step 4:</b>  Create and Configure .netrc File
 
 To set up your `.netrc` file for accessing [https://urs.earthdata.nasa.gov](https://urs.earthdata.nasa.gov), follow these steps:
