@@ -1,6 +1,7 @@
-<div align="center">
-  <h1>Instructions on Downloading the GRACE & GLDAS Data</h1>
-</div>
+---
+layout: page
+title: Instructions on Downloading the GRACE & GLDAS Data
+---
 
 The goal of this notebook is to provide instructions for:
 
@@ -13,9 +14,8 @@ The goal of this notebook is to provide instructions for:
 - Downloading multiple versions of GRACE & GLDAS data & potentially other datasets of interest hosted on NASA Earth Data.
 
 
-<div align="center">
-  <h2>Section I: Downloading GRACE & GLDAS Data (needs python >= 3.7)</h1>
-</div>
+#Section I: Downloading GRACE & GLDAS Data (needs python >= 3.7)</h1>
+
 
 <b>Step 1:</b>  Register for an Account  
 
@@ -63,9 +63,8 @@ To download the dataset using the downloaded shell file in the terminal, follow 
 Step 6: The download will begin :D
 
 
-<div align="center">
-  <h2>Section II: Customising GRACE-FO and GLDAS Data</h1>
-</div>
+#Section II: Customising GRACE-FO and GLDAS Data</h1>
+
 
 
 ###How to download GRACE-FO data for a different time period?
