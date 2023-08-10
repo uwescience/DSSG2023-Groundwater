@@ -12,9 +12,11 @@
 
 **Aquifer:** A body of saturated rock undergound through which water can easily move. 
 
-Snow Water Equivalent   
-Root Zone Soil Moisture   
-Surface Water   
+**Snow Water Equivalent (SWE):** describes the amount of liquid water stored in snow pack. For example, if 10 inches of snow falls at 10% density, then there would be 1 inch of SWE. 
+
+**Root Zone Soil Moisture:** Water stored in soil that is generally available to plants, generally considered to be in the upper 200 centimeters of soil. 
+
+**Surface Water:**    
 Anomaly   
 Mascon   
 Shapefile   
