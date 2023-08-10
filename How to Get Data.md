@@ -49,7 +49,7 @@ password <your password>
 
 3. Type the command: `chmod +x download_data.sh` and press Enter.
 
-<img src="images/Step4.gif">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/Step4.gif">
 
 <b>Step 5:</b>  Download the Dataset
 
@@ -59,7 +59,7 @@ To download the dataset using the downloaded shell file in the terminal, follow 
 2. Type the command: `chmod +x download_data.sh` and press Enter.
 3. Now, run the command: `./download_data.sh` to initiate the download process.
 
-<img src="images/Step5.gif">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/Step5.gif">
 
 Step 6: The download will begin :D
 
@@ -78,7 +78,7 @@ The shell file contains the path to download GRACE-FO data till 2023-06-23. If y
 4. Save your changes by pressing `Ctrl+O` and then confirm the filename with `Enter`.
 5. Exit the text editor by pressing `Ctrl+X`.
 
-<img src="images/Step6.gif">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/Step6.gif">
 
 6. Repeat Steps 3 till Steps 6 from Section I.
 
@@ -97,4 +97,4 @@ The shell file contains the path to download GRACE-FO data till 2023-06-23. If y
 
 6. Repeat Steps 3 till Steps 6 from Section I.
 
-<img src="images/Step7.gif">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/Step7.gif">
