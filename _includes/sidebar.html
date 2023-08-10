@@ -22,10 +22,19 @@ h<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesom
       </button>
       <div class="dropdown-container">
           <a href="{{ '/overview' | prepend: site.baseurl }}">Overview</a><br/>
-          <a href="{{ '/001' | prepend: site.baseurl }}">001</a>
+          <a href="{{ '/01-What is Your Question' | prepend: site.baseurl }}">01-What is Your Question</a>
+          <a href="{{ '/02-Data You Need for Groundwater Analysis' | prepend: site.baseurl }}">02-Data You Need for Groundwater Analysis</a>
+          <a href="{{ '/03-How to Get Data' | prepend: site.baseurl }}">/03-How to Get Data</a>
+          <a href="{{ '/04' | prepend: site.baseurl }}">/04/a>
+            <button class="dropdown-btn">Results
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                 <a href="{{ '/04' | prepend: site.baseurl }}">/04A-Reading and Processing GRACE and GLDAS/a>
+            </div>
+
       </div>
       
-      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/results' | prepend: site.baseurl }}">Results</a>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/glossary' | prepend: site.baseurl }}">Glossary</a>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/about' | prepend: site.baseurl }}">About</a>
 
