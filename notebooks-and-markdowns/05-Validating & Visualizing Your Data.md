@@ -41,7 +41,25 @@
 </p>
 
 ### States
+<p align="center">
+    <img src='images/statestotal.png' height="500">
+</p>
+
+<p align="center">
+    <img src='images/nm.png' height="150">
+    <img src='images/ca.png' height="150">
+    <img src='images/ut.png' height="150">
+    <img src='images/co.png' height="150">
+    <img src='images/wy.png' height="150">
+    <img src='images/nv.png' height="150">
+    <img src='images/az.png' height="150">
+
+</p>
+
+<p align="center">
+    <img src='images/05crbstate.png' width=800>
+    <img src='images/05crbstates_ra.png' width=800>
+</p>
 
 
-### Tribal Nations
 
