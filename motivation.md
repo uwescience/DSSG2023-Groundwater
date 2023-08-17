@@ -9,6 +9,7 @@ Ultimately, our research aims to enable a diverse set of audiences to understand
 
 <br>
 <br>
+
 > **Background**
 
 The Colorado River Basin, a large region across the Southwestern United States, parts of Mexico, and several Tribal Nations, faces unprecedented water stress. Colloquially known as “the lifeblood of the Southwest”, the Colorado River provides water for 40 million people, supplies irrigation for 5 million acres of farmland, and underpins $1.4 trillion in yearly economic activity. Vitally important for social, economic, and cultural purposes, the river is facing record shortages largely due to climate change and regional increases in development and water-use. Indeed, the Bureau of Reclamation recently declared the first ever water shortage in the region.
@@ -18,6 +19,7 @@ Current regulations governing water allocation in the Colorado River Basin will 
 
 <br>
 <br>
+
 > **Actors with interests**
 
 We have taken into account the perspectives of key actors throughout this project.
