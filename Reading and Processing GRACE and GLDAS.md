@@ -16,14 +16,14 @@ For our analysis here, we will use a shapefile that focuses on the Colorado Rive
 
 A shapefile is a file that stores geometric location and attribute information of geographical features in a nontopological way. Shapefiles represent geographical features by points, lines, or polygons (geographical areas) (ArcGIS). It is one of the simpler ways to store and work with geographic data. Many shapefiles are publicly available for download by government agencies, researchers, or practitioners. Below is an example of what a shapefile looks like in tabular form and how you can go from that to a map.
 
-<img src='images/shape%20file%20figure.png'>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/shape%20file%20figure.png">
 Source: ReStore
 
 #### Applying This Method to the CRB 
 
 Below, we use this method to use a shapefile of the Colorado River Basin for analysis. You can download the shape file for the Colorado River Basin from ArcGIS hub [here](https://coloradoriverbasin-lincolninstitute.hub.arcgis.com/datasets/colorado-river-basin-hydrological-boundaries-with-areas-served-by-colorado-river/explore?location=36.244092%2C-110.573590%2C6.00). After downloading the shapefiles, remember to **move them to the `data/shapefiles` folder** to run the code to read the shapefile. A visual of this is shown below: 
 
-<img src='images/CRB_shapefile.png'>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/CRB_shapefile.png">
 
 To work with shapefiles, we will use the `geopandas` package, a spatial analysis package built on top of `pandas`. We will begin by loading in this package and reading in the shapefile. Next, we will load in plotting functions from `matplotlib` and map the shapefile. 
 
