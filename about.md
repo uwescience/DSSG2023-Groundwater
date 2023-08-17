@@ -5,9 +5,7 @@ title: About
 
 ### About
 
-Team Photo
-
-Individual Bios
+Our team consists of two project leads, a data scientist, a community engagement lead and four graduate student fellows. 
 
 Aanchal Setia
 <img src="{{site.url }}{{site.baseurl }}/assets/img/Aanchal.png"
