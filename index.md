@@ -15,4 +15,6 @@ layout: default
 
 **DSSG Fellows:** Kimberly Kreiss, Maia Powell, Violet Huang, Aanchal Setia
 
-# Abstract or executive summary
+# Executive Summary
+
+The Colorado River Basin is facing unprecedented water scarcity; however, existing basin-wide water governance approaches largely disregard groundwater – a critical, yet increasingly scarce, resource. This presentation describes an accessible and open data science workflow for making estimates of groundwater change publicly available. We use data from NASA’s Gravity Recovery And Climate Experiment (GRACE) mission – a complex dataset requiring significant technical expertise. We present a workflow enabling users to download, process, merge, and interpret complex hydrological data, including GRACE data, to derive estimates of groundwater anomalies over time. This tool can enable interdisciplinary research and public policy decisions reflective of large-scale and long-term groundwater dynamics.
