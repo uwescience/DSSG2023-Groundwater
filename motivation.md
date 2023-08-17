@@ -7,9 +7,6 @@ Our overarching goals for the 2023 Data Science for Social Good (DSSG) Program i
 Groundwater is critical for water supply in the Colorado River Basin; however, it has historically not been considered in water governance and management at the basin-wide scale. This project uses satellite data (Gravity Recovery and Climate Experiment, Global Land Data Assimilation System, etc.) to measure and analyze groundwater change dynamics in the basin. Satellite data, in contrast to in-situ measurements, is cost-advantageous and scalable – yet, is highly under-utilized in exploring complex groundwater change dynamics.
 Ultimately, our research aims to enable a diverse set of audiences to understand groundwater changes in the Colorado River Basin. Moreover, we aim for our workflow to be easily extendable to other areas outside the basin that may be facing a water crisis. To accomplish this, we produce: (1) **interactive maps and charts to understand regional groundwater differences within the Colorado River Basin;** (2) **Jupyter notebooks with accessible and functional code that details our workflow**; and (3) **a detailed report outlining our methods and findings**.
 
-<br>
-<br>
-
 > **Background**
 
 The Colorado River Basin, a large region across the Southwestern United States, parts of Mexico, and several Tribal Nations, faces unprecedented water stress. Colloquially known as “the lifeblood of the Southwest”, the Colorado River provides water for 40 million people, supplies irrigation for 5 million acres of farmland, and underpins $1.4 trillion in yearly economic activity. Vitally important for social, economic, and cultural purposes, the river is facing record shortages largely due to climate change and regional increases in development and water-use. Indeed, the Bureau of Reclamation recently declared the first ever water shortage in the region.
