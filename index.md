@@ -13,6 +13,8 @@ layout: default
 
 **Data Science Lead/s:** Vaughn Iverson
 
+**Community Engagement Lead:** Linda Méndez-Barrientos
+
 **DSSG Fellows:** Kimberly Kreiss, Maia Powell, Violet Huang, Aanchal Setia
 
 # Executive Summary
