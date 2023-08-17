@@ -19,7 +19,6 @@ Current regulations governing water allocation in the Colorado River Basin will 
 
 <br>
 <br>
-
 > **Actors with interests**
 
 We have taken into account the perspectives of key actors throughout this project.
@@ -31,8 +30,6 @@ We have taken into account the perspectives of key actors throughout this projec
 **Scientists**: Satellite data, such as GRACE, represents a powerful yet complex tool for understanding and conducting statistical analyses. We aim to develop a reproducible workflow that can be readily adapted and applied to the Colorado River Basin and other regions. This will empower scientists to conduct research with increased efficiency and effectiveness, thereby advancing our understanding of the groundwater.
 
 **Advocacy Groups**: We are dedicated to ensuring that our tools are accessible to individuals without extensive technical expertise. Our objective is to provide visualizations and reports that support advocacy groups in their endeavors to raise awareness and utilize scientific data. By doing so, we aim to assist these groups in advocating for sustainable groundwater management practices and fostering a greater understanding of the groundwater among broader audiences.
-
-
 
 <br>
 <br>
