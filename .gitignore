@@ -7,3 +7,9 @@
 *.doc
 *.docx
 *.log
+*.shp
+*.shx
+*.dbf
+*.xml
+*.prj
+*.sbn
