@@ -5,7 +5,8 @@ layout: default
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
 
 
-# Project Name
+# Flowing Forward: A Reproducible Workflow for Studying Groundwater Scarcity in the Colorado River Basin
+
 
 ## The Team
 
