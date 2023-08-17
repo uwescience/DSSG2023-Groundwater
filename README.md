@@ -22,7 +22,7 @@ A folder that contains output from the workflow, including downloaded data from 
 
 #### scripts/
 
-Additional scripts that are necessary for the workflow such as shell scripts to download GRACE and GLDAS data or additional analysis files. 
+Additional scripts that are necessary for the workflow such as shell scripts to download GRACE and GLDAS data or additional analysis files. Currently this folder has two subfolders: /analysis and /data. The /analysis folder contains code to produce visualizations contained in /notebooks-and-markdowns/05-Visualization Your Data.md and the /data folder include scripts to download the data. 
 
 
 
