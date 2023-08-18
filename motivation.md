@@ -1,7 +1,7 @@
 > ## Introduction
 
 <div style="text-align: center;">
-    <img width="400" src="{{site.url }}/CRB.jpeg">
+    <img width="400" src="{{site.url }}{{site.baseurl  }}/CRB.jpeg">
 </div>
 
 Our overarching goals for the 2023 Data Science for Social Good (DSSG) Program involved:
@@ -9,7 +9,7 @@ Our overarching goals for the 2023 Data Science for Social Good (DSSG) Program i
 * **Developing a reproducible workflow (i.e., gathering, formatting, analyzing, and visualizing data) that can be applied to other regions around the world.**
 
 Groundwater is critical for water supply in the Colorado River Basin; however, it is much less present in water governance and management at the basin-level. This project uses satellite data (Gravity Recovery and Climate Experiment, Global Land Data Assimilation System, etc.) to measure and analyze groundwater changes in the basin. Satellite data, in contrast to in-situ measurements, is cost-advantageous and scalable--yet, it is highly under-utilized in exploring complex groundwater change dynamics.
-Ultimately, our work aims to enable a diverse set of users and audiences to understand groundwater changes in the Colorado River Basin. Moreover, we aim for our workflow to be easily extendable to other areas outside the basin that may be facing a water crisis. To accomplish this, our workflow provides **a set of markdowns and Jupyter notebooks with reproducible and flexible code to analyze groundwater change in the Colorado River Basin**. Our workflow provides detailed instructions and code on how to download, process, and analyze several complex satellite datasets to get estimates on groundwater changes within the basin. Additionally, our workflow can easily be modified to focus on a different area within the United States 
+Ultimately, our work aims to enable a diverse set of users and audiences to understand groundwater changes in the Colorado River Basin. Moreover, we aim for our workflow to be easily extendable to other areas outside the basin that may be facing a water crisis. To accomplish this, our workflow provides **a set of markdowns and Jupyter notebooks with reproducible and flexible code to analyze groundwater change in the Colorado River Basin**. Our workflow provides detailed instructions and code on how to download, process, and analyze several complex satellite datasets to get estimates on groundwater changes within the basin. Additionally, our workflow can easily be modified to focus on a different area within the United States or globally. 
 
 <br>
 <br>
