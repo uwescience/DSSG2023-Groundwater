@@ -16,11 +16,18 @@ Our team consists of four graduate student fellows:
 <img style="float: left; padding-right: 20;" src="{{site.url }}{{site.baseurl }}/assets/img/Screen Shot 2023-06-13 at 6.51.35 PM.png" width="250" hspace = "20" /> **Violet Huang** is currently pursuing her Master’s in Computational Social Science at the
 University of Chicago. She uses modern techniques to examine social science issues. Her current research is centered on the causal effects of 2022’s abortion-related ballot measures on midterm election outcomes. Violet is keenly interested in the nexus of data, technology, and society and has a strong commitment to advancing public interests through the power of data. This interest prompted her to join the DSSG fellowship, where she is working on the Groundwater Insecurity project. Prior to her Master’s, Violet studied Mathematics and Sociology at New York University, where her undergraduate thesis explored the spatial and temporal constraints faced by female Uber drivers.
 
-### Roles and Contributions 
+### Team Leadership 
 
-The project leads for this team are Akshay Mehra and Sameer Shah and the team's data scientist is Vaughn Iverson. Linda Méndez-Barrientos is the Community Engagement Specialist. 
+Our team leadership consists of two project leads, a data scientist, and a community engagement specialist:
 
-Where readers can find more details about the project, e.g. code, data, reports, etc.
+**Project Leads**: 
 
-Acknowledgements
+**Akshay Mehra** is an Assistant Professor of UW Earth and Space Sicences and **Sameer Shah** is an Assistant Professor of UW Environmental and Forest Sciences. 
 
+**Data Scientist:** 
+
+Vaughn Iverson is a data scientist with the eScience Institute. 
+
+**Community Engagement Specialist:** 
+
+**Linda Méndez-Barrientos** is the community engagement specialist. 
