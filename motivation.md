@@ -33,7 +33,7 @@ Current regulations governing water allocation in the Colorado River Basin will 
 
 > ## Actors with Interest
 
-<img width="600" src="{{site.url }}{{site.baseurl  }}/users.png" class="center">
+<img width="800" src="{{site.url }}{{site.baseurl  }}/users.png" class="center">
 
 We have taken into account the perspectives of key actors throughout this project.
 
