@@ -56,9 +56,7 @@ plt.show()
 
 A simple way to start narrowing down to the area within the Colorado River Basin is to construct a rectangle around the region and only read in and process rows within that rectangle: 
 
-<p align="left">
-    <img src="images/CRB%20rectangle.jpg" width="600" />
-</p>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/CRB%20rectangle.jpg">
 
 As you can see from the image above, a substantial amount of geography that is not within the CRB is still in the rectange. We will use spatial processes to eliminate those from our dataset later in the process. For now though, focusing on this rectangle will greatly speed up reading and applying other transformations to the data. 
 
@@ -89,9 +87,7 @@ grace
 
 The first thing you will note is that the dataset has several dimensions: `lon`, `lat`, `time`, and `bounds`. This is because the GRACE data come at the pixel-level for each year. In our sitution, a pixel is the smallest geographic unit of analysis. Because collecting and processing GRACE satellite data is technical and compuationally expensive, GRACE measurements are given as .5-degree by .5-degree squares. The pixels cover the entire Earth's surface and each have a GRACE measurement monthly from 2002-present. A visual of this is shown below, where each square in the GRID correponds to a pixel (Sharma, Patnaik, Biswal, Reager, 2020). Note that the yellow dots are gauging stations for comparison. 
 
-<p align="center">
-    <img src="images/GRACE_grids.png" width="500" />
-</p>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/GRACE_grids.png">
 
 First, since the data is an xarray dataset, we can do some processing to transform the dataset into a standard tabular, pandas dataframe. For efficiency, we can also only select the variables we need, and for use with other datasets, we will transform the longitude points from a [0,360] range to a [-180,180] range.  
 
@@ -237,21 +233,15 @@ One key consideration for combining GRACE and GLDAS data is that pixels in GRACE
 
 One way we can do this is to "upsample" GRACE data. This is shown visually below: 
 
-<p align="center">
-    <img src="images/upscale.png" width="500" />
-</p>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/upscale.png">
 
 After upsampling, you are left witha final product of evenly-spaced, non-overlapping $.25°x.25°$ pixels (shown below, far right panel). 
 
-<p align="center">
-    <img src="images/crb_upscale.png" width="1200" />
-</p>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/crb_upscale.png">
 
 Each "pixel" thus represents a chunk of land approximately 235.46 miles squared ($\approx$ 378.94 kilometers squared). A visualization of an individual pixel is shown below.
 
-<p align="center">
-    <img src="images/lon-lat.png" width="500" />
-</p>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/lon-lat.png">
 
 ```python
 # Helper function to generate the upsampled GRACE data
