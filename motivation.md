@@ -14,7 +14,7 @@ Ultimately, our work aims to enable a diverse set of users and audiences to unde
 
 > ## Background
 
-<img width="600" src="{{site.url }}{{site.baseurl  }}/CRB map with river.jpeg" class="center">
+<img width="600" src="{{site.url }}{{site.baseurl  }}/CRB map with river.jpg" class="center">
 
 The Colorado River Basin, a large region spanning the Southwestern United States, parts of Mexico, and several Tribal Nations, faces unprecedented water stress. Colloquially known as “the lifeblood of the Southwest”, the Colorado River provides water for 40 million people, supplies irrigation for 5 million acres of farmland, and underpins $1.4 trillion in yearly economic activity[^1]. 
 
@@ -33,7 +33,7 @@ Current regulations governing water allocation in the Colorado River Basin will 
 
 > ## Actors with Interest
 
-<img width="600" src="{{site.url }}{{site.baseurl  }}/users.jpeg" class="center">
+<img width="600" src="{{site.url }}{{site.baseurl  }}/users.png" class="center">
 
 We have taken into account the perspectives of key actors throughout this project.
 
