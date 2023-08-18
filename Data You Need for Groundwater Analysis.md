@@ -27,7 +27,6 @@ We list the datasets used to derive each variable in the image below:
 
 The formula to derive groundwater measurement using GRACE data and other datasets is as follows:
 
-<img src="{{site.url }}{{site.baseurl }}/assets/img/gweq.png" />
 
 We list the datasets used to derive each variable in the image below:
 <img src="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/images/Formula.png">
@@ -48,10 +47,7 @@ In our project, we have used the NOAH Land Surface Model. The NOAH Land Surface 
 
 **Our project has used the following equation:**
 
-$$
-\Delta Groundwater = \Delta Terrestrial Water Storage - \Delta SoilMoisture - \Delta Snow Water Equivalent - \Delta Surface Water
-$$
-
+<img src="{{site.url }}{{site.baseurl }}/assets/img/gweq.png" />
 
 By utilizing our workflow, you can efficiently compute groundwater estimates through a more optimized approach. It involves data preprocessing, selective feature extraction, and other techniques to streamline the computation and reduce resource requirements.
 
