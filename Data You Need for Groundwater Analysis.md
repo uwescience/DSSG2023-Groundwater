@@ -19,7 +19,9 @@ The formula to derive groundwater measurement using GRACE data and other dataset
 \]
 
 We list the datasets used to derive each variable in the image below:
-![Datasets](https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/images/Formula.png)
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/Formula.png">
+
 
 ## The Formula and Datasets
 
