@@ -29,7 +29,7 @@ We note that there are seasonal and annual trends, shown by drops, peaks, and va
 
 ### Investigating Individual Pixels
 
-Previously we looked at the CRB as a whole by aggregating values. We can, in addition, look at the individual pixel level at any given time. When we visualize these pixels on a spatial graph over time, we can actually visualize how groundwater is moving over time! This also allows us to look at seasonal and annual trends. You'll notice there are individual pixels that don't seem to match the trends of their surrounding areas. These pixels mark the locations of reservoirs from which we collected surface water data. For data collection purposes, we approximated the location of each reservoir to a 0.25 x 0.25 pixel, based on the location of that reservoir's monitoring wells. It's important to note that certain reservoirs, such as Lake Mead and Lake Powell, have elongated shapes. While they might occupy the space of multiple pixels, their total area is roughly equivalent to a single 0.25 x 0.25 pixel.
+Previously we looked at the CRB as a whole by aggregating values. We can, in addition, look at the individual pixel level at any given time. When we visualize these pixels on a spatial graph over time, we can actually visualize how groundwater is moving over time! This also allows us to look at seasonal and annual trends. 
 
 #### Temporal Spatial Trends 
 <p align="center">
@@ -71,8 +71,8 @@ Given nearly any accurate shapefile for a region of interest, we can compute gro
 To start, we can look at trends in the Upper Basin versus within the Lower Basin. Though the division between the Upper and Lower basins was decided politically, there are significant distinctions between the two. 
 
 <p align="center">
-    <img src='images/5upperbasin.png' height="300">
-    <img src='images/5lowerbasin.png' height="300">
+    <img src='images/upperbasin_5.png' height="300">
+    <img src='images/lowerbasin_5.png' height="300">
     <img src='images/5upperlower.png' width=800>
 </p>
 
@@ -104,6 +104,20 @@ The CRB spans seven states in the United States, though they are not all fully c
 </p>
 
 We note that Wyoming has the highest overall groundwater anomaly[^1]. Eventhough the trend for the CRB (aggregated) leans negative, Wyoming starts positive for nearly every month. Conversely, we observe that California is facing the largest amount of groundwater depletion, which aligns with the historic drought the state has been facing. 
+
+### Tribal Nations
+
+The Colorado River Basin is home to 30 Tribal Nations. We can visualize the groundwater trends[^1] for each individual nation. 
+
+<p align="center">
+    <img src='images/tribalnations.png' height=400>
+</p>
+
+<p align="center">
+    <img src='images/tn.png' height=400>
+    <img src='images/tn_ra.png' height=400>
+</p>
+
 
 
 [^1]: Please note that these groundwater estimates are shown without surface water included.
