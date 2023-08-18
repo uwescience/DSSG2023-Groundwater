@@ -14,22 +14,12 @@ Scientists have responded to these constraints by turning to space. More specifi
 
 The formula to derive groundwater measurement using GRACE data and other datasets is as follows:
 
-\[
-\Delta \text{Groundwater} = \Delta \text{Terrestrial Water Storage} - \Delta \text{SoilMoisture} - \Delta \text{Snow Water Equivalent} - \Delta \text{Surface Water}
-\]
+<img src="{{site.url }}{{site.baseurl }}/assets/img/gweq.png" />
 
 We list the datasets used to derive each variable in the image below:
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/Formula.png">
 
-
-## The Formula and Datasets
-
-The formula to derive groundwater measurement using GRACE data and other datasets is as follows:
-
-
-We list the datasets used to derive each variable in the image below:
-<img src="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/images/Formula.png">
 
 ## Digging Deeper: 
 
