@@ -10,7 +10,11 @@ A reproducible and well-documented workflow to analyze groundwater scarcity in t
 
 ## Overview of Workflow 
 
-This workflow is intended to be used directly on a user's machine. The repository should be cloned or downloaded and the user should follow the instructions outlined in the workflow and run the code and scripts locally. The repository has three main folders, which are described below: 
+This workflow is intended to be used directly on a user's machine. The repository should be cloned or downloaded and the user should follow the instructions outlined in the workflow and run the code and scripts locally. The paths and structure of the repository is so that the DSSG2023-Groundwater folder is the location where the work is being done, so the code is written such that files are being saved or read in relative to this location. 
+
+Dependencies can be installed by running ```pip install -r requirements.txt```.
+
+The repository has three main folders, which are described below: 
 
 #### notebooks-and-markdowns/
 
