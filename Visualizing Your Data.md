@@ -96,9 +96,9 @@ The CRB spans seven states in the United States, though they are not all fully c
 <div style="text-align: center;">
     <!-- First row of 3 images -->
     <div style="display: flex; justify-content: center; gap: 10px;">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/nm.png" height="200">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/ca.png" height="200">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/ut.png" height="200">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/nm.png" height="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/ca.png" height="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/ut.png" height="300">
     </div>
     
     <!-- Spacing between rows -->
@@ -106,9 +106,9 @@ The CRB spans seven states in the United States, though they are not all fully c
     
     <!-- Second row of 3 images -->
     <div style="display: flex; justify-content: center; gap: 10px;">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/co.png" height="200">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/wy.png" height="200">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/nv.png" height="200">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/co.png" height="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/wy.png" height="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/nv.png" height="300">
     </div>
 
     <!-- Spacing between rows -->
@@ -116,7 +116,7 @@ The CRB spans seven states in the United States, though they are not all fully c
     
     <!-- Third row with 1 image -->
     <div style="display: flex; justify-content: center; gap: 10px;">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/az.png" height="200">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/az.png" height="300">
     </div>
 </div>
 
