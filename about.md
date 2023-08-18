@@ -30,4 +30,4 @@ Our team leadership consists of two project leads, a data scientist, and a commu
 
 **Community Engagement Specialist:** 
 
-**Linda Méndez-Barrientos** is the community engagement specialist. 
+**Linda Méndez-Barrientos** is the community engagement specialist. She is currently an Assistant Professor in the Josef Korbel School of International Studies at the University of Denver. 
