@@ -75,8 +75,8 @@ To start, we can look at trends in the Upper Basin versus within the Lower Basin
 
 <p align="center">
     <div style="display: flex; justify-content: center; gap: 10px;">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/5upperbasin.png">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/5lowerbasin.png">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/5upperbasin.png" width="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/5lowerbasin.png" width="300">
     </div>
     <img src="{{site.url }}{{site.baseurl }}/assets/img/5upperlower.png">
 </p>
