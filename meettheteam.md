@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Meet the Team 
+title: Meet the Team
 ---
 
 ### Graduate Student Fellows
