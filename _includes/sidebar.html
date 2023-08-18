@@ -13,7 +13,7 @@ h<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesom
     <nav class="sidebar-nav">
 
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-      <a class="sidebar-nav-item{% if page.url == '/about' %} active{% endif %}" href="{{ site.baseurl }}">Meeting the Team</a>
+      <a class="sidebar-nav-item{% if page.url == '/about' %} active{% endif %}" href="{{ prepend: site.baseurl }}">Meeting the Team</a>
       <a class="sidebar-nav-item {% if page.url == '/motivation' %} active{% endif %}" href="{{ '/motivation' | prepend: site.baseurl }}">Motivation</a>
       <a class="sidebar-nav-item {% if page.url == '/method' %} active{% endif %}" href="{{ '/method' | prepend: site.baseurl }}">Methods</a>
 
