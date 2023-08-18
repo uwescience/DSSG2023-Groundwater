@@ -5,9 +5,9 @@ permalink:        pretty
 
 
 # Setup
-title:            DSSG 2023 Groundwater
+title:            Flowing Forward
 tagline:          ''
-description:      'A 2023 Data Science for Social Good summer fellowship project at the University of Washington' 
+description:      'A reproducible workflow for studying groundwater changes in the Colorado River Basin and beyond' 
 url:              "https://uwescience.github.io"
 baseurl:          "/DSSG2023-Groundwater"
 
@@ -18,4 +18,4 @@ paginate:         5
 version:          0.0.0
 
 github:
-  repo:          https://github.com/uwescience/DSSG2023-Groundwater
+  repo:           https://github.com/uwescience/DSSG2023-Groundwater
