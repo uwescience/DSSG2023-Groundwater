@@ -63,7 +63,7 @@ from bokeh.palettes import Category10, Category20
 import itertools
 ```
 
-## Step I(a): Reading data from the Reclamation
+> ## Step I(a): Reading data from the Reclamation
 
 The Reclamation hosted a [hydrologic database access portal](https://www.usbr.gov/uc/water/hydrodata/nav.html) for all relevent data on reservoirs they operated in the area of Colorado River Basin. The data we will be using are:
 - a [metadata spreadsheet](https://www.usbr.gov/uc/water/hydrodata/reservoir_data/meta.csv) that include the information about monitoring sites (latitude, longitude, site_id, etc)
@@ -207,7 +207,7 @@ for row in reclamation_reservoirs.itertuples(index=False):
 reclamation_df = pd.concat(reclamation_data_list).reset_index(drop=True)
 ```
 
-## Step I(b): Reading data from the USGS
+> ## Step I(b): Reading data from the USGS
 
 The process of reading data from the USGS is similar to the process of reading data from the Reclamation. 
 
@@ -371,7 +371,7 @@ for row in usgs_reservoirs.itertuples(index=False):
 usgs_df = pd.concat(usgs_data_list).reset_index(drop=True)
 ```
 
-## Step II: Cleaning and Processing Both the Reclamation and USGS Datasets
+> ## Step II: Cleaning and Processing Both the Reclamation and USGS Datasets
 
 In our dataset, we are dealing with repetitive monitoring sites stored in both the Reclamation dataset and the USGS dataset. 
 
