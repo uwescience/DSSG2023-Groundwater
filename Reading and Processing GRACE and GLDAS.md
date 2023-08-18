@@ -1,4 +1,8 @@
-# Organizing, Subsetting and Processing Data 
+---
+layout: page
+title: Organizing, Subsetting and Processing Data
+---
+
 ([access](https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/04A-Reading%20%26%20Processing%20GRACE%20and%20GLDAS.ipynb) to this page in GitHub) 
 
 Now that you've successfully downloaded the GRACE and GLDAS data, you will need to read in and process the data to get groundwater anamoly estimates. Both datasets have raw data contained in .nc or .nc4 files. These are files for storing multi-dimensional data--in our case, the key dimensions we are interested in are latittude and longitude (geography) and time. We can use the `xarray` package to read in these data.
