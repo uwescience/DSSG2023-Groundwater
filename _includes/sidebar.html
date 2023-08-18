@@ -13,6 +13,7 @@ h<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesom
     <nav class="sidebar-nav">
 
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/about' %} active{% endif %}" href="{{ site.baseurl }}">Meeting the Team</a>
       <a class="sidebar-nav-item {% if page.url == '/motivation' %} active{% endif %}" href="{{ '/motivation' | prepend: site.baseurl }}">Motivation</a>
       <a class="sidebar-nav-item {% if page.url == '/method' %} active{% endif %}" href="{{ '/method' | prepend: site.baseurl }}">Methods</a>
 
@@ -32,7 +33,6 @@ h<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesom
       </div>
 
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/glossary' | prepend: site.baseurl }}">Glossary</a>
-      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/about' | prepend: site.baseurl }}">About</a>
 
       <script>
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
