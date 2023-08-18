@@ -1,9 +1,10 @@
 #  Unraveling the Mystery of Groundwater Measurement
 
 Traditionally, governmental bodies and water agencies relied on [in situ measurement](https://www.usgs.gov/faqs/how-can-i-find-depth-water-table-specific-location#:~:text=The%20most%20reliable%20method%20of,placing%20electric%20or%20acoustic%20probes.)  to monitor groundwater in the U.S. such as the ones available from USGS. However, such approach has several limitations:
-- Groundwater can only be monitored in places where monitoring wells are available, making wells drilled on private property difficult to monitor (JPL).
-- Drilling monitoring wells can be time consuming and costly across large areas (National Academy of Sciences).
-
+- Groundwater can only be monitored in places where monitoring wells are available, making wells drilled on private property difficult to monitor (JPL)[^1].
+[^1]: https://grace.jpl.nasa.gov/applications/groundwater/
+- Drilling monitoring wells can be time consuming and costly across large areas (National Academy of Sciences)[^2].
+[^2]: https://nap.nationalacademies.org/read/25754/
 
 Scientists have responded to these constraints by turning to space. More specifically, they use the Gravity Recovery and Climate Experiment (GRACE) and the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) data collected by NASA. These datasets track changes in terrestrial water storage around the globe, encompassing water found in lakes, rivers, soil, snowpack, and underground aquifers. By combining GRACE with other datasets that provide measurements on soil moisture, snowpack, and surface water, we can create estimates of groundwater anamolies. 
 
@@ -74,8 +75,6 @@ On the other hand, the USGS serves as the scientific division of the U.S. Depart
 **Q: Where can I find more information about GRACE and GRACE-FO?**
 
 **A:** For more information that's relevant to hydrological information, you could refer to their [Level-3 Data Product User Handbook](https://deotb6e7tfubr.cloudfront.net/s3-edaf5da92e0ce48fb61175c28b67e95d/podaac-ops-cumulus-docs.s3.us-west-2.amazonaws.com/gracefo/open/docs/GRACE-FO_L3_Handbook_JPL.pdf?A-userid=None&Expires=1690241615&Signature=bNV~ixhHoOupQqiGtGhqH9Hfe7t7cc3OV7lpXOdLs0pOTMY1IgS2hYr2XRFtszFYucNVarcxrmIQGkwIB4CP5svHDiY3VuX4Gdy428RmNQ3BdAyiOhS6zxkkFJ77Osmu9t2P~JAu7CbijgeGxObAXtv9fsVb6sQgpllMB5PA9LplawrqBipZIs-84VX5CSDSFYIKZogv~d1jT8~AaE7I3GG79~osAsIaZ3v66OTDNJ4wHnjOLixptO5-85MrjtrHW07fQXXdyYfSLafNfDaFQCkaawGE1XZSpTSf8Krr0t~Zzl97wAUPzlvmr74HtWcHo6kuC70Qkzi9BLVkGADykA__&Key-Pair-Id=K353YVLLPST7AQ). Other documentations of GRACE and GRACE-FO mission are accessible [here](https://podaac.jpl.nasa.gov/gravity/gracefo-documentation).
-[^1]: https://grace.jpl.nasa.gov/applications/groundwater/
-[^2]: https://nap.nationalacademies.org/read/25754/
 
 **Q: Which version of GLDAS should I use?**
 
