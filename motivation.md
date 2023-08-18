@@ -1,4 +1,4 @@
-> **Introduction**
+> ## Introduction
 
 Our overarching goals for the 2023 Data Science for Social Good (DSSG) Program involved:
 * **Understanding how groundwater has changed over time in the Colorado River Basin (CRB);** and
@@ -10,7 +10,7 @@ Ultimately, our research aims to enable a diverse set of audiences to understand
 <br>
 <br>
 
-> **Background**
+> ## Background
 
 The Colorado River Basin, a large region across the Southwestern United States, parts of Mexico, and several Tribal Nations, faces unprecedented water stress. Colloquially known as “the lifeblood of the Southwest”, the Colorado River provides water for 40 million people, supplies irrigation for 5 million acres of farmland, and underpins $1.4 trillion in yearly economic activity[^1]. 
 [^1]: American Rivers (2022). [Accessible from here](https://www.americanrivers.org/wp-content/uploads/2022/04/ColoradoRiver_MER2022_Report_Final_03302022.pdf) 
@@ -24,7 +24,7 @@ Current regulations governing water allocation in the Colorado River Basin will 
 <br>
 <br>
 
-> **Actors with interests**
+> ## Actors with Interest
 
 We have taken into account the perspectives of key actors throughout this project.
 
@@ -39,7 +39,7 @@ We have taken into account the perspectives of key actors throughout this projec
 <br>
 <br>
 
-> **Ethics**
+> ## Ethics
 
 Working on groundwater and water insecurity in this project brings up complex ethical issues across multiple domains. Politically, groundwater management varies significantly across government levels. Additionally, Tribal Nations, and Mexico are often influenced by basin-wide management decisions, but are not always included in the discussions. Groundwater depletion and water insecurity impact different groups in disproportionate ways – financially, socially, and culturally. Moreover, given the complexity of the datasets we work with, presenting our products and documentation in standard fashion could prevent audiences with less technical background from fully utilizing our products.
 
