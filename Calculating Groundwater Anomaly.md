@@ -1,4 +1,7 @@
-# Calculating Groundwater
+---
+layout: page
+title: Calculating Groundwater
+---
 
 In the preceding notebooks, we have gathered and processed all the required variables to compute groundwater anomalies.
 
