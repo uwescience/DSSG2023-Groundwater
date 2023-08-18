@@ -3,7 +3,7 @@ layout: page
 title: Visualizing Data
 ---
 
-Visualizing your outputs is a crucial step in making data digestible to the general public. Creating figures is typically much preferred to simply showing numbers. Below, we will go through some figures that may be on interest when studying groundwater in the Colorado River Basin. 
+Visualizing your outputs is a crucial step in making data digestible to the general public. Creating figures is typically much preferred to simply showing numbers. Below, we will go through some figures that may be on interest when studying groundwater in the Colorado River Basin.  
 
 >## Comparing & Contrasting Individual Variables
 
