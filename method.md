@@ -8,5 +8,3 @@ Transitioning to the next phase, we read in and shaped them into a digestible, t
 It then became necessary to standardize the units of measurement and resolution of these datasets. We then merged them into a unified whole, creating a comprehensive estimate of groundwater anomalies for the region. This intricate process is illustrated below:
 
 ![Methods](assets/img/numbered-methods.png)
-
-Upon completion, we analyzed and visualized groundwater changes and validated our findings with [x,y,z].
