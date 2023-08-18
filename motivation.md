@@ -14,6 +14,8 @@ Ultimately, our work aims to enable a diverse set of users and audiences to unde
 
 > ## Background
 
+<img width="600" src="{{site.url }}{{site.baseurl  }}/CRB map with river.jpeg" class="center">
+
 The Colorado River Basin, a large region spanning the Southwestern United States, parts of Mexico, and several Tribal Nations, faces unprecedented water stress. Colloquially known as “the lifeblood of the Southwest”, the Colorado River provides water for 40 million people, supplies irrigation for 5 million acres of farmland, and underpins $1.4 trillion in yearly economic activity[^1]. 
 
 [^1]: American Rivers (2022). [Accessible from here](https://www.americanrivers.org/wp-content/uploads/2022/04/ColoradoRiver_MER2022_Report_Final_03302022.pdf) 
@@ -30,6 +32,8 @@ Current regulations governing water allocation in the Colorado River Basin will 
 <br>
 
 > ## Actors with Interest
+
+<img width="600" src="{{site.url }}{{site.baseurl  }}/users.jpeg" class="center">
 
 We have taken into account the perspectives of key actors throughout this project.
 
