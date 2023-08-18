@@ -33,7 +33,7 @@ Previously we looked at the CRB as a whole by aggregating values. We can, in add
 
 #### Temporal Spatial Trends 
 <p align="center">
-    <img src='images/05gwvolchanges_pillow.gif' width=800>
+    <img src='images/05gwvolumechanges_pillow.gif' width=800>
 </p>
 
 #### Wet & Dry Months
@@ -79,7 +79,7 @@ To start, we can look at trends in the Upper Basin versus within the Lower Basin
 For both the Upper and Lower basin, we observe that as time advances, there is a decrease in groundwater anomaly. This trend starts around 2012 for the Lower Basin, but not till about 2020 for the Upper Basin. The Upper Basin is mountainous in geography when compared to the Lower Basin, while the Lower Basin is more desertlike. 
 
 
-### States
+### States 
 
 The CRB spans seven states in the United States, though they are not all fully contained within the boundary of the CRB. These states vary in size, population, and agriculture, to name a few. 
 
@@ -103,6 +103,7 @@ The CRB spans seven states in the United States, though they are not all fully c
     <img src='images/05crbstates_ra.png' width=800>
 </p>
 
-We note that Wyoming has the highest overall groundwater anomaly. Eventhough the trend for the CRB (aggregated) leans negative, Wyoming starts positive for nearly every month. Conversely, we observe that California is facing the largest amount of groundwater depletion, which aligns with the historic drought the state has been facing. 
+We note that Wyoming has the highest overall groundwater anomaly[^1]. Eventhough the trend for the CRB (aggregated) leans negative, Wyoming starts positive for nearly every month. Conversely, we observe that California is facing the largest amount of groundwater depletion, which aligns with the historic drought the state has been facing. 
 
 
+[^1]: Please note that these groundwater estimates are shown without surface water included.
