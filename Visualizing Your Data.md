@@ -33,7 +33,7 @@ Previously we looked at the CRB as a whole by aggregating values. We can, in add
 
 #### Temporal Spatial Trends 
 <p align="center">
-    <img src='images/05gwvolchanges_pillow.gif' width=800>
+    <img src="{{site.url }}{{site.baseurl }}/assets/img/05gwvolchanges_pillow.gif" width=800>
 </p>
 
 #### Wet & Dry Months
@@ -98,8 +98,8 @@ The CRB spans seven states in the United States, though they are not all fully c
 </p>
 
 <p align="center">
-    <img src='images/05crbstate.png' width=800>
-    <img src='images/05crbstates_ra.png' width=800>
+    <img src="{{site.url }}{{site.baseurl }}/assets/img/05crbstate.png" width=800>
+    <img src="{{site.url }}{{site.baseurl }}/assets/img/05crbstates_ra.png" width=800>
 </p>
 
 We note that Wyoming has the highest overall groundwater anomaly. Eventhough the trend for the CRB (aggregated) leans negative, Wyoming starts positive for nearly every month. Conversely, we observe that California is facing the largest amount of groundwater depletion, which aligns with the historic drought the state has been facing. 
