@@ -4,7 +4,7 @@ Visualizing your outputs is a crucial step in making data digestible to the gene
 
 >## Comparing & Contrasting Individual Variables
 
-Even before computing groundwater, taking a closer look at the components of the groundwater equation can be very powerful. Looking at the scale of the data gives you a sense of which variables may contribute heavily, or relatively negligible. 
+Even before computing groundwater, taking a closer look at the components of the groundwater equation can be very powerful. Looking at the scale of the data gives you a sense of which variables may contribute heavily, or be relatively negligible. 
 
 <p align="center">
     <img src='images/5variables.png' width=800>
@@ -36,7 +36,7 @@ Previously we looked at the CRB as a whole by aggregating values. We can, in add
     <img src='images/05gwvolchanges_pillow.gif' width=800>
 </p>
 
-#### Wet & Dry Years
+#### Wet & Dry Months
 
 While moving visualizations are exciting, static images can tell important stories as well. 
 
@@ -52,7 +52,7 @@ We observe that nearly the entire CRB has groundwater anomaly in the negative, m
 We can conversely look at a very wet month, such as May 2011.
 
 <p align="center">
-    <img src="images/5may11.png" height="222" />
+    <img src="images/05may.png" height="222" />
     <img src="images/5may11sp.png" height="222" />
 </p>
 
