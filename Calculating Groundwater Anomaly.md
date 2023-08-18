@@ -7,9 +7,9 @@ In the preceding notebooks, we have gathered and processed all the required vari
 
 Recall the equation for calculating groundwater anomalies:
 
-$$ΔGW = ΔTWS - (ΔSM + ΔSWE + ΔSW)$$
+<img src="{{site.url }}{{site.baseurl }}/assets/img/gweq.png" />
 
-Here, ΔTWS represents the terrestrial water storage anomalies that we have acquired and processed from GRACE. ΔSM stands for soil moisture anomalies derived from GLDAS, while ΔSWE signifies snow water equivalent anomalies, also from GLDAS. Finally, ΔSW refers to surface water anomalies obtained from the USGS and the Bureau of Reclamation.
+Here, `ΔTWS` represents the terrestrial water storage anomalies that we have acquired and processed from GRACE. `ΔSM` stands for soil moisture anomalies derived from GLDAS, while `ΔSWE` signifies snow water equivalent anomalies, also from GLDAS. Finally, `ΔSW` refers to surface water anomalies obtained from the USGS and the Bureau of Reclamation.
 
 With these data in hand, we are now ready to calculate groundwater anomalies.
 
