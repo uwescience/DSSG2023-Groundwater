@@ -56,11 +56,11 @@ A positive number in the varibale `gw_estimate_km3` means that there are more gr
 
 A negative number in the varibale `gw_estimate_km3` means that there are less groundwater at the given pixel than the average change in groundwater at the pixel.
 
-<img src='images/groundwater_anomaly.png'>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/groundwater_anomaly.png">
 
 1 kilometer cube of groundwater anomaly is approximately the volume of 400,000 Olympic swimming pools
 
-<img src='images/swimming_pool.png'>
+<img src="{{site.url }}{{site.baseurl }}/assets/img/swimming_pool.png">
 
 ```python
 final_df
