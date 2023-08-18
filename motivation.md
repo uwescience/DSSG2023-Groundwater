@@ -1,11 +1,15 @@
 > ## Introduction
 
+<div style="text-align: center;">
+    <img width="400" src="{{site.url }}/CRB.jpeg">
+</div>
+
 Our overarching goals for the 2023 Data Science for Social Good (DSSG) Program involved:
 * **Understanding how groundwater has changed over time in the Colorado River Basin (CRB);** and
 * **Developing a reproducible workflow (i.e., gathering, formatting, analyzing, and visualizing data) that can be applied to other regions around the world.**
 
-Groundwater is critical for water supply in the Colorado River Basin; however, it is much less present in water governance and management at the basin-wide scale. This project uses satellite data (Gravity Recovery and Climate Experiment, Global Land Data Assimilation System, etc.) to measure and analyze groundwater change dynamics in the basin. Satellite data, in contrast to in-situ measurements, is cost-advantageous and scalable – yet, is highly under-utilized in exploring complex groundwater change dynamics.
-Ultimately, our research aims to enable a diverse set of audiences to understand groundwater changes in the Colorado River Basin. Moreover, we aim for our workflow to be easily extendable to other areas outside the basin that may be facing a water crisis. To accomplish this, we produce: (1) **interactive maps and charts to understand regional groundwater differences within the Colorado River Basin;** (2) **Jupyter notebooks with accessible and functional code that details our workflow**; and (3) **a detailed report outlining our methods and findings**.
+Groundwater is critical for water supply in the Colorado River Basin; however, it is much less present in water governance and management at the basin-level. This project uses satellite data (Gravity Recovery and Climate Experiment, Global Land Data Assimilation System, etc.) to measure and analyze groundwater changes in the basin. Satellite data, in contrast to in-situ measurements, is cost-advantageous and scalable--yet, it is highly under-utilized in exploring complex groundwater change dynamics.
+Ultimately, our work aims to enable a diverse set of users and audiences to understand groundwater changes in the Colorado River Basin. Moreover, we aim for our workflow to be easily extendable to other areas outside the basin that may be facing a water crisis. To accomplish this, our workflow provides **a set of markdowns and Jupyter notebooks with reproducible and flexible code to analyze groundwater change in the Colorado River Basin**. Our workflow provides detailed instructions and code on how to download, process, and analyze several complex satellite datasets to get estimates on groundwater changes within the basin. Additionally, our workflow can easily be modified to focus on a different area within the United States 
 
 <br>
 <br>
@@ -18,7 +22,7 @@ The Colorado River Basin, a large region across the Southwestern United States, 
 
 Vitally important for social, economic, and cultural purposes, the river is facing record shortages largely due to climate change and regional increases in development and water-use. Indeed, the Bureau of Reclamation recently declared the first ever water shortage in the region[^2].
 
-[^2]: Bureau of Reclamation (2021). Reclamation announces 2022 operating conditions for Lake Powell and Lake Mead. Accessible from: https://www.usbr.gov/newsroom/news-release/3950 
+[^2]: Bureau of Reclamation (2021). Reclamation announces 2022 operating conditions for Lake Powell and Lake Mead. [Accessible from here:](https://www.usbr.gov/newsroom/news-release/3950)
 
 Previous discussions and policy decisions on water allocation in the region have largely focused on surface water – i.e., water that is visible above ground, such as the water in Lakes Mead or Powell. In contrast, groundwater exists below the Earth’s surface in aquifers. Despite the lack of focus on groundwater, it remains a crucial resource for water supply in the region, particularly for agricultural areas, rural areas, and for compensating for surface water shortages during drought. Still, measurement and allocation of groundwater remains difficult and inconsistent.
 
