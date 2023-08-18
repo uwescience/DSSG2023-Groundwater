@@ -36,7 +36,7 @@ Previously we looked at the CRB as a whole by aggregating values. We can, in add
 
 #### Temporal Spatial Trends 
 <p align="center">
-    <img src="{{site.url }}{{site.baseurl }}/assets/img/05gwvolchanges_pillow.gif" width=800>
+    <img src="{{site.url }}{{site.baseurl }}/assets/img/05gwvolumechanges_pillow.gif" width=800>
 </p>
 
 #### Wet & Dry Months
@@ -74,10 +74,13 @@ Given nearly any accurate shapefile for a region of interest, we can compute gro
 To start, we can look at trends in the Upper Basin versus within the Lower Basin. Though the division between the Upper and Lower basins was decided politically, there are significant distinctions between the two. 
 
 <p align="center">
-    <img src="{{site.url }}{{site.baseurl }}/assets/img/5upperbasin.png">
-    <img src="{{site.url }}{{site.baseurl }}/assets/img/5lowerbasin.png">
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/5upperbasin.png" width="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/5lowerbasin.png" width="300">
+    </div>
     <img src="{{site.url }}{{site.baseurl }}/assets/img/5upperlower.png">
 </p>
+
 
 For both the Upper and Lower basin, we observe that as time advances, there is a decrease in groundwater anomaly. This trend starts around 2012 for the Lower Basin, but not till about 2020 for the Upper Basin. The Upper Basin is mountainous in geography when compared to the Lower Basin, while the Lower Basin is more desertlike. 
 
@@ -92,24 +95,31 @@ The CRB spans seven states in the United States, though they are not all fully c
 
 <div style="text-align: center;">
     <!-- First row of 3 images -->
-    <div>
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/nm.png" height="150">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/ca.png" height="150">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/ut.png" height="150">
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/nm.png" height="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/ca.png" height="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/ut.png" height="300">
     </div>
+    
+    <!-- Spacing between rows -->
+    <br>
     
     <!-- Second row of 3 images -->
-    <div>
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/co.png" height="150">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/wy.png" height="150">
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/nv.png" height="150">
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/co.png" height="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/wy.png" height="300">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/nv.png" height="300">
     </div>
+
+    <!-- Spacing between rows -->
+    <br>
     
     <!-- Third row with 1 image -->
-    <div>
-        <img src="{{site.url }}{{site.baseurl }}/assets/img/az.png" height="150">
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="{{site.url }}{{site.baseurl }}/assets/img/az.png" height="300">
     </div>
 </div>
+
 
 <p align="center">
     <img src="{{site.url }}{{site.baseurl }}/assets/img/05crbstate.png" width=800>
