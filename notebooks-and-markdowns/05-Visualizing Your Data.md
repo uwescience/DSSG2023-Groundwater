@@ -52,7 +52,7 @@ We observe that nearly the entire CRB has groundwater anomaly in the negative, m
 We can conversely look at a very wet month, such as May 2011.
 
 <p align="center">
-    <img src="images/5may11.png" height="222" />
+    <img src="images/05may.png" height="222" />
     <img src="images/5may11sp.png" height="222" />
 </p>
 
