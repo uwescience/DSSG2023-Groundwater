@@ -1,8 +1,11 @@
-# Visualizing 
+---
+layout: page
+title: Visualizing Data
+---
 
 Visualizing your outputs is a crucial step in making data digestible to the general public. Creating figures is typically much preferred to simply showing numbers. Below, we will go through some figures that may be on interest when studying groundwater in the Colorado River Basin. 
 
->## Comparing & Contrasting Individual Variables
+## Comparing & Contrasting Individual Variables
 
 Even before computing groundwater, taking a closer look at the components of the groundwater equation can be very powerful. Looking at the scale of the data gives you a sense of which variables may contribute heavily, or be relatively negligible. 
 
@@ -15,7 +18,7 @@ In the figures above, we note that Terrestrial Water Storage (i.e. Land Water Eq
 
 The variables that we substract from Terrestrial Water Storage are all on similar scales. We note that Snow Water Equivalent makes the smallest contribution to the groundwater equation, having the smallest range of values. Conversely, Root Zone Soil moisture makes the largest contribution. 
 
->## Merging Data to Compute Groundwate Anomaly
+## Merging Data to Compute Groundwate Anomaly
 
 ### Aggregated Data (Representation of Entire Basin)
 
@@ -60,7 +63,7 @@ We observe that, though this was one of the wettest months in the CRB from the p
 
 
 
->## Exploring Shapefiles
+## Exploring Shapefiles
 
 Given nearly any accurate shapefile for a region of interest, we can compute groundwater anomolies. Even when examining the Colorado River Basin, there are a number of different shapefiles (and corresponding regions) that we can explore.
 
