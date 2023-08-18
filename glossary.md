@@ -3,7 +3,7 @@ layout: page
 title: Glossary
 ---
 
-## Hydrological Terms
+> ## Hydrological Terms
 
 **River Basin:** An area of land drained by a river and its tributaries.      
 
@@ -21,7 +21,7 @@ title: Glossary
 
 **Root Zone Soil Moisture:** Water stored in soil that is available to plants, generally considered to be in the upper 200 centimeters of soil. 
 
-## Technical Terms
+> ## Technical Terms
 
 **GRACE:** Gravity Recovery and Climate Experiment is a collaboration of the U.S. and German space agencies (NASA and DLR) that launched twin satellites on March 17, 2002 that make detailed measurements of Earth's gravity field changes. 
 
