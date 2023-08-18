@@ -7,16 +7,16 @@ layout: default
 
 # The Team
 
-**Project Lead/s:** Sameer H. Shah, Akshay Mehra
+**Project Lead:** Sameer H. Shah, Akshay Mehra
 
-**Data Science Lead/s:** Vaughn Iverson
+**Data Science Lead:** Vaughn Iverson
 
 **Community Engagement Lead:** Linda Méndez-Barrientos
 
 **DSSG Fellows:** Kimberly Kreiss, Maia Powell, Violet Huang, Aanchal Setia
 
 ---
-</br>
+<br>
 
 # Executive Summary
 
