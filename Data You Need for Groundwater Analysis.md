@@ -4,25 +4,24 @@ title: Unraveling the Mystery of Groundwater Measurement
 ---
 
 Traditionally, governmental bodies and water agencies relied on [in situ measurement](https://www.usgs.gov/faqs/how-can-i-find-depth-water-table-specific-location#:~:text=The%20most%20reliable%20method%20of,placing%20electric%20or%20acoustic%20probes.)  to monitor groundwater in the U.S. such as the ones available from USGS. However, such approach has several limitations:
-- Groundwater can only be monitored in places where monitoring wells are available, making wells drilled on private property difficult to monitor (JPL)[^1].
-[^1]: https://grace.jpl.nasa.gov/applications/groundwater/
-- Drilling monitoring wells can be time consuming and costly across large areas (National Academy of Sciences)[^2].
-[^2]: https://nap.nationalacademies.org/read/25754/
+- Groundwater can only be monitored in places where monitoring wells are available, making wells drilled on private property difficult to monitor [JPL](https://grace.jpl.nasa.gov/applications/groundwater/).
+- Drilling monitoring wells can be time consuming and costly across large areas [National Academy of Sciences](https://nap.nationalacademies.org/read/25754/).
 
 Scientists have responded to these constraints by turning to space. More specifically, they use the Gravity Recovery and Climate Experiment (GRACE) and the Gravity Recovery and Climate Experiment Follow-On (GRACE-FO) data collected by NASA. These datasets track changes in terrestrial water storage around the globe, encompassing water found in lakes, rivers, soil, snowpack, and underground aquifers. By combining GRACE with other datasets that provide measurements on soil moisture, snowpack, and surface water, we can create estimates of groundwater anamolies. 
 
-## The Formula and Datasets
+> ## The Formula and Datasets
 
 The formula to derive groundwater measurement using GRACE data and other datasets is as follows:
 
+<img src="{{site.url }}{{site.baseurl }}/assets/img/gweq.png" />
 $$
 \Delta Groundwater = \Delta Terrestrial Water Storage - \Delta SoilMoisture - \Delta Snow Water Equivalent - \Delta Surface Water
 $$
 
 We list the datasets used to derive each variable in the image below:
-<img src="https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/images/Formula.png">
+<img src="{{site.url }}{{site.baseurl }}/assets/img/Formula.png">
 
-## Digging Deeper: 
+> ## Digging Deeper: 
 
 ### What are GRACE and GRACE-FO?
 
@@ -57,7 +56,7 @@ The Bureau of Reclamation, a federal entity under the U.S. Department of the Int
 On the other hand, the USGS serves as the scientific division of the U.S. Department of the Interior, providing a wealth of data related to earth science, water, biology, and mapping to facilitate informed decision-making. Their [Water Daily Data for the Nation](https://waterdata.usgs.gov/nwis/) database delivers water-related data collected from across the U.S. For the scope of this project, we are solely focusing on the surface water data contained within their database.
 
 
-## Frequently Asked Questions about GRACE and GRACE-FO
+> ## Frequently Asked Questions about GRACE and GRACE-FO
 
 **Q: How do scientists measure change in Earth's gravity fields?**
 
