@@ -11,7 +11,7 @@ Now that you've successfully downloaded the GRACE and GLDAS data, you will need 
 
 Both datasets have similar processes for loading in the data which are outlined in detail below. However, the first step for processing both datasets is to filter to your region of interest. This is important because it makes processing times for each step much quicker. As such, our first step in processing will be loading in a shapefile and filtering to the region of interest before loading in GRACE and GLDAS and merging them with other datasets
 
-### Subsetting The Data 
+> ### Subsetting The Data 
 
 For most use cases, it will make the most sense to load in a shapefile and use this file to narrow down your region. This will allow your analysis to focus on your area of interest as precisely as possible and improve the efficiency of your code. If you don't have a shapefile or know your region of interest, you can pick any 4 latitude/longitude points and use them to draw a rectangle around a region of the world you are interested in. You can also skip this step, but note it will make the code take much longer to run. 
 
@@ -78,7 +78,7 @@ lon_max = max(coords['x'])
 lat_min = min(coords['y'])
 lat_max = max(coords['y'])
 ```
-### GRACE
+> ### GRACE
 
 The GRACE MASCON data is contained in 1 .nc file and contains global land MASCON GRACE data. We start by using `xarray` to read in the data.
 
@@ -150,7 +150,7 @@ grace_df['uncertainty_km3'] = grace_df["uncertainty_cm"] * CM_TO_KM_RATIO * grac
 grace_df
 ```
 
-### GLDAS Data 
+> ### GLDAS Data 
 
 Next, we will read in the GLDAS data which provides us with information on snow pack and soil moisture. These data are similarly in a multidimensional data format which can be read in using `xarray`. However, the data come in individual files that require being read in and combined into one dataset. The code below does this.
 
@@ -212,7 +212,7 @@ gldas_df['SWE_inst_km3'] = gldas_df['SWE_inst_kg/m2'] * KG_PER_M2_TO_KG_PER_KM2_
 gldas_df
 ```
 
-### Focusing on the Basin 
+> ### Focusing on the Basin 
 
 Returning to the GRACE data, we saw earlier that though the data is filtered down to a rectangle containing the Colorado River Basin, there are still areas that are not contained in the rectangle. We can use geoprocessing techniques from `geopandas` to keep points in GRACE that only intersect the shape file. 
 
@@ -298,7 +298,7 @@ plt.minorticks_on()
 plt.show()
 ```
 
-### Merging the Datasets 
+> ### Merging the Datasets 
 
 Now that GRACE and GLDAS are in standardized, tabular formats, we can merge these datasets together to combine all the variables of interest and calculate groundwater estimates. Note that since the GRACE data is already filtered to the area of interest, we can simply perform a left join to merge GLDAS with GRACE data.
 
@@ -310,15 +310,15 @@ gldas_df['time'] = pd.to_datetime(gldas_df["time"].astype(str).str.slice(0, 7), 
 grace_gldas_df = upsampled_grace_df.merge(gldas_df, on=["time", "lat", "lon"], how="left")
 ```
 
-### Calculating Anamolies 
+> ### Calculating Anamolies 
 
 In order to compute groundwater anamolies, you need to compute the deviation from the mean for each measurement:
 
-$$d_i = p_i - \mu$$
+<img src="{{site.url }}{{site.baseurl }}/assets/img/Anomaly.png">
 
-where ($d_i$) is the deviation from the mean for obervation i, ($p_i$) is the measurement for observation i, and $\mu$ is the average over the specified time period. 
+where `d_i` is the deviation from the mean for obervation i, `p_i` is the measurement for observation i, and `μ` is the average over the specified time period. 
 
-In order to calculate $\mu$, you take the average for each water category over a specified time period. Here, we use the time period from 2004-2009, following NASA and recent literature, which is shown in code below. Note that the code is easily modifiable if you would like to focus on a different time period. 
+In order to calculate `μ`, you take the average for each water category over a specified time period. Here, we use the time period from 2004-2009, following NASA and recent literature, which is shown in code below. Note that the code is easily modifiable if you would like to focus on a different time period. 
 
 ```python
 grace_gldas_df
