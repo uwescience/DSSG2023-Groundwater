@@ -1,4 +1,8 @@
-# Reading and Processing Surface Water Data
+---
+layout: page
+title: Reading and Processing Surface Water Data
+---
+
 ([Access](https://github.com/uwescience/DSSG2023-Groundwater/blob/main/notebooks-and-markdowns/04B-Reading%20%26%20Processing%20Surface%20Water.ipynb) to this page on GitHub)
 
 Upon completing the data processing for GRACE and GLDAS, we will next shift our focus to the acquisition and analysis of surface water data. Surface water data is gathered via reservoir storage monitoring performed at designated monitoring sites for each reservoir. Contrasting with GRACE and GLDAS, surface water data is typically fragmented and region-specific.
