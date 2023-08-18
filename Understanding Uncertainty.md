@@ -9,9 +9,9 @@ Uncertainties and errors exist in the processing of satellite measurements and p
 
 To obtain the confidence interval of the observation of terrestrial water storage at a pixel at a given time, use the following equation:
 
-$$\text{Confident Interval} _\text{lat-lon-time} = \text{Terrestrial Water Storage} _\text{lat-lon-time} ± \text{Uncertainty} _\text{lat-lon-time}$$
+<img src="{{site.url }}{{site.baseurl }}/assets/img/Confidence_Interval.png">
 
-where the $`lat`$, $lon$ identifies the pixel we are focusing on, $time$ identifies the time we are focused on, the $\text{Terrestrial Water Storage} _\text{lat-lon-time}$ and $\text{Uncertainty} _\text{lat-lon-time}$ are the variable values stored under the lwe_thickness_km3 column and the uncertainty_km3 column for the row we are interested in.
+where the `lat`, `lon` identifies the pixel we are focusing on, `time` identifies the time we are focused on, the `Terrestrial Water Storage_lat-lon-time` and `Uncertainty_lat-lon-time` are the variable values stored under the `lwe_thickness_km3` column and the `uncertainty_km3` column for the row we are interested in.
 
 The resulted uncertainty is considered to be conservative. The original uncertainty is measured at the 3 degree pixel level, corresponding to the shape of each individual mascon. Then, scientists scaled the orginal uncertainty to derive the uncertainty at the 0.5 degree level. Integrating the uncertainty over a region is also complicated because there are correlation of errors across individual mascons. More details are documented on [the GRACE Tellus Mascons website](https://grace.jpl.nasa.gov/data/get-data/jpl_global_mascons/) and the paper [Wiese, Landerer and Watkins (2016)](http://dx.doi.org/10.1002/2016WR019344)
 
@@ -23,4 +23,4 @@ Uncertainties in Soil Moisture and Snow Water Equivalent from GLDAS are not docu
 ## Propagating Uncertainty
 To propagate uncertainty and obtain the uncertainty of the groundwater anomaly, we can assume that uncertainties are uncorrelated between different datasets. The following formula is used:
 
-$$\text{Uncertainty} _\text{groundwater} = \sqrt{\text{Uncertainty} _\text{Terrestrial Water Storage}^2 + \text{Uncertainty} _\text{Soil Moisture}^2 + \text{Uncertainty} _\text{Snow Water Equivalent}^2 + \text{Uncertainty} _\text{Reservoir Storag}^2}$$
+<img src="{{site.url }}{{site.baseurl }}/assets/img/Uncertainty.png">
