@@ -6,7 +6,7 @@ Our overarching goals for the 2023 Data Science for Social Good (DSSG) Program i
 * **Understanding how groundwater has changed over time in the Colorado River Basin (CRB);** and
 * **Developing a reproducible workflow (i.e., gathering, formatting, analyzing, and visualizing data) that can be applied to other regions around the world.**
 
-Groundwater is critical for water supply in the Colorado River Basin; however, it is much less present in water governance and management at the basin-level. This project uses satellite data (Gravity Recovery and Climate Experiment, Global Land Data Assimilation System, etc.) to measure and analyze groundwater changes in the basin. Satellite data, in contrast to in-situ measurements, is cost-advantageous and scalable--yet, it is highly under-utilized in exploring complex groundwater change dynamics.
+Groundwater is critical for water supply in the Colorado River Basin. However, it is much less present in water governance and management at the basin-level. This project uses satellite data (Gravity Recovery and Climate Experiment, Global Land Data Assimilation System, etc.) to measure and analyze groundwater changes in the basin. Satellite data, in contrast to in-situ measurements, is cost-advantageous and scalable--yet, it is highly under-utilized in exploring complex groundwater change dynamics.
 Ultimately, our work aims to enable a diverse set of users and audiences to understand groundwater changes in the Colorado River Basin. Moreover, we aim for our workflow to be easily extendable to other areas outside the basin that may be facing a water crisis. To accomplish this, our workflow provides **a set of markdowns and Jupyter notebooks with reproducible and flexible code to analyze groundwater change in the Colorado River Basin**. Our workflow provides detailed instructions and code on how to download, process, and analyze several complex satellite datasets to get estimates on groundwater changes within the basin. Additionally, our workflow can easily be modified to focus on a different area within the United States or globally. 
 
 <br>
@@ -14,17 +14,17 @@ Ultimately, our work aims to enable a diverse set of users and audiences to unde
 
 > ## Background
 
-The Colorado River Basin, a large region across the Southwestern United States, parts of Mexico, and several Tribal Nations, faces unprecedented water stress. Colloquially known as “the lifeblood of the Southwest”, the Colorado River provides water for 40 million people, supplies irrigation for 5 million acres of farmland, and underpins $1.4 trillion in yearly economic activity[^1]. 
+The Colorado River Basin, a large region spanning the Southwestern United States, parts of Mexico, and several Tribal Nations, faces unprecedented water stress. Colloquially known as “the lifeblood of the Southwest”, the Colorado River provides water for 40 million people, supplies irrigation for 5 million acres of farmland, and underpins $1.4 trillion in yearly economic activity[^1]. 
 
 [^1]: American Rivers (2022). [Accessible from here](https://www.americanrivers.org/wp-content/uploads/2022/04/ColoradoRiver_MER2022_Report_Final_03302022.pdf) 
 
-Vitally important for social, economic, and cultural purposes, the river is facing record shortages largely due to climate change and regional increases in development and water-use. Indeed, the Bureau of Reclamation recently declared the first ever water shortage in the region[^2].
+Vitally important for social, economic, and cultural purposes, the river is facing record shortages largely due to climate change and regional increases in development and water use. Indeed, the Bureau of Reclamation recently declared the first ever water shortage in the region[^2].
 
 [^2]: Bureau of Reclamation (2021). Reclamation announces 2022 operating conditions for Lake Powell and Lake Mead. [Accessible from here:](https://www.usbr.gov/newsroom/news-release/3950)
 
 Previous discussions and policy decisions on water allocation in the region have largely focused on surface water – i.e., water that is visible above ground, such as the water in Lakes Mead or Powell. In contrast, groundwater exists below the Earth’s surface in aquifers. Despite the lack of focus on groundwater, it remains a crucial resource for water supply in the region, particularly for agricultural areas, rural areas, and for compensating for surface water shortages during drought. Still, measurement and allocation of groundwater remains difficult and inconsistent.
 
-Current regulations governing water allocation in the Colorado River Basin will expire in 2026. Given the unprecedented water shortage in the region and upcoming policy decisions, making data and information about groundwater in the region easily available and accessible has the potential to provide crucial information that can help inform this important decision. A dataset, reproducible workflow, and clear communication on groundwater levels could thus be impactful for water allocation decisions in the area. Moreover, as other areas in the world face similar water crises, an easy-to-modify workflow that can be adapted to other regions has the potential to globally help manage water shortages.
+Current regulations governing water allocation in the Colorado River Basin will expire in 2026. Given the unprecedented water shortage in the region and upcoming policy decisions, making data and information about groundwater in the region easily available and accessible has the potential to provide crucial information that can help inform this important decision. A dataset, reproducible workflow, and clear communication on groundwater changes could thus be impactful for water allocation decisions in the area. Moreover, as other areas in the world face similar water crises, an easy-to-modify workflow that can be adapted to other regions has the potential to globally help manage water shortages.
 
 <br>
 <br>
@@ -33,13 +33,13 @@ Current regulations governing water allocation in the Colorado River Basin will 
 
 We have taken into account the perspectives of key actors throughout this project.
 
-**General Public**: The estimation of groundwater usage and insecurity demands significant technical expertise, often excluding a range of actors, including the general public. We want to make information about groundwater usage and insecurity in the Basin readily accessible to everyone.
+**Researchers**: Satellite data, such as GRACE, represents a powerful yet complex tool for understanding and conducting statistical analyses. We aim to develop a reproducible workflow that can be readily adapted and applied to the Colorado River Basin and other regions by social scientists and other researchers. 
 
-**Policymakers**:  Groundwater is often overlooked when making policy decisions regarding water allocations in the Colorado River Basin. As we approach the 2026 negotiations, we aim to provide compelling data and insights that highlight the significance of including groundwater considerations in policy-making decisions.
-
-**Scientists**: Satellite data, such as GRACE, represents a powerful yet complex tool for understanding and conducting statistical analyses. We aim to develop a reproducible workflow that can be readily adapted and applied to the Colorado River Basin and other regions. This will empower scientists to conduct research with increased efficiency and effectiveness, thereby advancing our understanding of the groundwater.
+**Policymakers**:  Groundwater is often overlooked when making policy decisions regarding water allocations in the Colorado River Basin. As we approach the 2026 negotiations, we hope to provide compelling data and insights that highlight the significance of including groundwater considerations in policy-making decisions.
 
 **Advocacy Groups**: We are dedicated to ensuring that our tools are accessible to individuals without extensive technical expertise. Our objective is to provide visualizations and reports that support advocacy groups in their endeavors to raise awareness and utilize scientific data. By doing so, we aim to assist these groups in advocating for sustainable groundwater management practices and fostering a greater understanding of the groundwater among broader audiences.
+
+**General Public**: The estimation of groundwater changes and insecurity demands significant technical expertise, often excluding a range of actors, including the general public. We hope our workflow can make information about groundwater changes and insecurity in the Basin readily accessible to everyone.
 
 <br>
 <br>
