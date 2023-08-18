@@ -574,7 +574,7 @@ for name, group in storage_df.groupby('name'):
 hover = HoverTool()
 hover.tooltips = [
     ('Name', '@name'),
-    ('Date', '@time{%F}'),
+    {% raw %}('Date', '@time{%F}'),{% endraw %}
     ('Storage', '@storage_km3')
 ]
 hover.formatters={'@time': 'datetime'}
