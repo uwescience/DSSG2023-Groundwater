@@ -215,7 +215,7 @@ We first gathered information for all monitoring sites located in the Colorado R
  - they have reservoir storage, acre-ft as the available parameter
 3. Then, we choose the output format option " Site-description information displayed in tab-separated format" and select site identification number, site name, site type, Decimal latitude, Decimal longitude as the fileds to include in the site-description output.
 
-We can then use [the website](https://waterdata.usgs.gov/nwis/dv?referred_module=sw&search_site_no=09&search_site_no_match_type=beginning&site_tp_cd=OC&site_tp_cd=OC-CO&site_tp_cd=ES&site_tp_cd=LK&site_tp_cd=ST&site_tp_cd=ST-CA&site_tp_cd=ST-DCH&site_tp_cd=ST-TS&index_pmcode_00054=1&group_key=county_cd&format=sitefile_output&sitefile_output_format=rdb&column_name=site_no&column_name=station_nm&column_name=site_tp_cd&column_name=dec_lat_va&column_name=dec_long_va&range_selection=days&period=365&date_format=YYYY-MM-DD&rdb_compression=file&list_of_search_criteria=search_site_no%2Csite_tp_cd%2Crealtime_parameter_selection) resulted from these steps to scrape the information.
+We can then use [the website](https://waterdata.usgs.gov/nwis/dv?referred_module=sw&search_site_no=09&search_site_no_match_type=beginning&site_tp_cd=OC&site_tp_cd=OC-CO&site_tp_cd=ES&site_tp_cd=LK&site_tp_cd=ST&site_tp_cd=ST-CA&site_tp_cd=ST-DCH&site_tp_cd=ST-TS&index_pmcode_00054=1&group_key=county_cd&format=sitefile_output&sitefile_output_format=rdb&column_name=site_no&column_name=station_nm&column_name=site_tp_cd&column_name=dec_lat_va&column_name=dec_long_va&range_selection=days&period=365&date_format=YYYY-MM-DD&rdb_compression=file&list_of_search_criteria=search_site_no2Csite_tp_cd%2Crealtime_parameter_selection) resulted from these steps to scrape the information.
 
 
 ```python
@@ -653,7 +653,7 @@ for name, group in storage_df.groupby('name'):
 hover = HoverTool()
 hover.tooltips = [
     ('Name', '@name'),
-    ('Date', '@time{%F}'),
+    {% raw %}('Date', '@time{%F}'),{% endraw %}
     ('Storage Anomaly', '@storage_anomaly_km3')
 ]
 hover.formatters={'@time': 'datetime'}
