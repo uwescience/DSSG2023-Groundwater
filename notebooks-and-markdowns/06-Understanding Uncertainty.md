@@ -21,4 +21,4 @@ Uncertainties in Soil Moisture and Snow Water Equivalent from GLDAS are not docu
 ## Propagating Uncertainty
 To propagate uncertainty and obtain the uncertainty of the groundwater anomaly, we can assume that uncertainties are uncorrelated between different datasets. The following formula is used:
 
-$$\text{Uncertainty} _\text{groundwater} = \sqrt{\text{Uncertainty} _\text{Terrestrial Water Storage}^2 + \text{Uncertainty} _\text{Soil Moisture}^2 + \text{Uncertainty} _\text{Snow Water Equivalent}^2 + \text{Uncertainty} _\text{Reservoir Storag}^2}$$
+$$\text{Uncertainty} _\text{groundwater} = \sqrt{\text{Uncertainty} _\text{Terrestrial Water Storage}^2 + \text{Uncertainty} _\text{Soil Moisture}^2 + \text{Uncertainty} _\text{Snow Water Equivalent}^2 + \text{Uncertainty} _\text{Reservoir Storage}^2}$$
