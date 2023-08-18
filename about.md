@@ -26,7 +26,7 @@ Our team leadership consists of two project leads, a data scientist, and a commu
 
 **Data Scientist:** 
 
-Vaughn Iverson is a data scientist with the eScience Institute. 
+**Vaughn Iverson** is a data scientist with the eScience Institute. 
 
 **Community Engagement Specialist:** 
 
