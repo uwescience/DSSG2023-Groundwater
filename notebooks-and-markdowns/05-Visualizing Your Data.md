@@ -29,7 +29,7 @@ We note that there are seasonal and annual trends, shown by drops, peaks, and va
 
 ### Investigating Individual Pixels
 
-Previously we looked at the CRB as a whole by aggregating values. We can, in addition, look at the individual pixel level at any given time. When we visualize these pixels on a spatial graph over time, we can actually visualize how groundwater is moving over time! This also allows us to look at seasonal and annual trends. 
+Previously we looked at the CRB as a whole by aggregating values. We can, in addition, look at the individual pixel level at any given time. When we visualize these pixels on a spatial graph over time, we can actually visualize how groundwater is moving over time! This also allows us to look at seasonal and annual trends. You'll notice there are individual pixels that don't seem to match the trends of their surrounding areas. These pixels mark the locations of reservoirs from which we collected surface water data. For data collection purposes, we approximated the location of each reservoir to a 0.25 x 0.25 pixel, based on the location of that reservoir's monitoring wells. It's important to note that certain reservoirs, such as Lake Mead and Lake Powell, have elongated shapes. While they might occupy the space of multiple pixels, their total area is roughly equivalent to a single 0.25 x 0.25 pixel.
 
 #### Temporal Spatial Trends 
 <p align="center">
