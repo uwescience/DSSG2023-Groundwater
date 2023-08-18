@@ -1,8 +1,6 @@
 > ## Introduction
 
-<div style="text-align: center;">
-    <img width="400" src="{{site.url }}{{site.baseurl  }}/CRB.jpeg">
-</div>
+<img width="600" src="{{site.url }}{{site.baseurl  }}/CRB.jpeg" class="center">
 
 Our overarching goals for the 2023 Data Science for Social Good (DSSG) Program involved:
 * **Understanding how groundwater has changed over time in the Colorado River Basin (CRB);** and
