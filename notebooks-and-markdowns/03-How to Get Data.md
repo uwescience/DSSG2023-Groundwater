@@ -12,7 +12,6 @@ The goal of this notebook is to provide instructions for:
 
 - Downloading multiple versions of GRACE & GLDAS data & potentially other datasets of interest hosted on NASA Earth Data.
 
-
 <div align="center">
   <h2>Section I: Downloading GRACE & GLDAS Data (needs python >= 3.7)</h1>
 </div>
