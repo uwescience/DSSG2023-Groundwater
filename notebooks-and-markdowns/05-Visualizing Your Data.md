@@ -105,19 +105,4 @@ The CRB spans seven states in the United States, though they are not all fully c
 
 We note that Wyoming has the highest overall groundwater anomaly[^1]. Eventhough the trend for the CRB (aggregated) leans negative, Wyoming starts positive for nearly every month. Conversely, we observe that California is facing the largest amount of groundwater depletion, which aligns with the historic drought the state has been facing. 
 
-### Tribal Nations
-
-The Colorado River Basin is home to 30 Tribal Nations. We can visualize the groundwater trends[^1] for each individual nation. 
-
-<p align="center">
-    <img src='images/tribalnations.png' height=400>
-</p>
-
-<p align="center">
-    <img src='images/tn.png' height=400>
-    <img src='images/tn_ra.png' height=400>
-</p>
-
-
-
 [^1]: Please note that these groundwater estimates are shown without surface water included.
