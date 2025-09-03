@@ -15,7 +15,7 @@ In the figures above, we note that Terrestrial Water Storage (i.e. Land Water Eq
 
 The variables that we substract from Terrestrial Water Storage are all on similar scales. We note that Snow Water Equivalent makes the smallest contribution to the groundwater equation, having the smallest range of values. Conversely, Root Zone Soil moisture makes the largest contribution. 
 
->## Merging Data to Compute Groundwate Anomaly
+>## Merging Data to Compute Groundwater Anomaly
 
 ### Aggregated Data (Representation of Entire Basin)
 
