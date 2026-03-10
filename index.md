@@ -4,6 +4,8 @@ layout: default
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
 
+**This website is part of the eScience Institute, University of Washington Web Archive.**
+
 
 # The Team
 
