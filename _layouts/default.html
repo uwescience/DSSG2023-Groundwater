@@ -8,6 +8,31 @@
     {% include sidebar.html %}
 
     <div class="content container">
+
+               <!-- Archiving banner -->
+        <div class="archived-banner">
+          <div class="banner-content">
+            <strong>Archived:</strong> This website is part of 
+            <a href="https://escience.washington.edu/"><u>UW eScience Institute</u></a>'s 
+            Web Archive. It is no longer maintained and may not meet current accessibility standards.
+            To request content in an accessible format, reach out to us by filling out our  
+            <a href="https://escience.washington.edu/connect/contact-us/"><u>contact form</u></a>.
+          </div>
+        </div>
+
+        <!-- CSS Styling -->
+        <style>
+        .archived-banner {
+          background-color: #fff3cd; /* Light yellow background */
+          color: #856404;            /* Dark yellow/brown text */
+          border: 1px solid #ffeeba; /* Border color */
+          padding: 15px;             /* Spacing inside the box */
+          border-radius: 5px;        /* Rounded corners */
+          margin-bottom: 20px;
+          font-family: sans-serif;
+          text-align: center;
+        }
+        </style>
       {{ content }}
     </div>
 
